@@ -1,0 +1,4363 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizika MÃ¶vzularÄ± - Tam SÉ™nÉ™d (70 sÉ™hifÉ™)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cover Page -->
+    <div class="cover-page">
+        <h1>FÄ°ZÄ°KA MÃ–VZULARI</h1>
+        <h2>MÃ¼hÉ™ndislikdÉ™ TÉ™tbiq vÉ™ Real NÃ¼munÉ™lÉ™r</h2>
+        <p>10 Æsas MÃ¶vzu</p>
+        <p>70 SÉ™hifÉ™ ÆtraflÄ± MÉ™lumat</p>
+        <p style="margin-top: 50px;">2025</p>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="topic-container page-break">
+        <div class="toc">
+            <h2>MÃœNDÆRÄ°CAT</h2>
+            <ul>
+                <li>1. Nyuton QanunlarÄ±nÄ±n MÃ¼hÉ™ndislikdÉ™ TÉ™tbiqi vÉ™ Real NÃ¼munÉ™lÉ™r</li>
+                <li>2. MaddÉ™nin Mexaniki XassÉ™lÉ™ri: Elastiklik vÉ™ DeformasiyanÄ±n Texnoloji ÆhÉ™miyyÉ™ti</li>
+                <li>3. TermodinamikanÄ±n Æsas QanunlarÄ± vÉ™ Enerji Ã‡evrilmÉ™lÉ™ri MÃ¼hÉ™ndislik SistemlÉ™rindÉ™</li>
+                <li>4. Elektrik DÃ¶vrÉ™lÉ™ri vÉ™ Ohm Qanununun Praktik TÉ™tbiqlÉ™ri</li>
+                <li>5. Maqnit SahÉ™sinin Texnoloji QurÄŸularda Rolu</li>
+                <li>6. DalÄŸa HadisÉ™lÉ™ri vÉ™ Akustik SistemlÉ™rin Ä°ÅŸlÉ™mÉ™ PrinsiplÉ™ri</li>
+                <li>7. Ä°ÅŸÄ±ÄŸÄ±n Ä°nterferensiyasÄ± vÉ™ DifraksiyasÄ±: Optik Cihazlarda TÉ™tbiqlÉ™r</li>
+                <li>8. QazlarÄ±n Kinetik NÉ™zÉ™riyyÉ™si vÉ™ Ä°stilik ProseslÉ™rinin ModellÉ™ÅŸdirilmÉ™si</li>
+                <li>9. Atom vÉ™ NÃ¼vÉ™ FizikasÄ± PrinsiplÉ™rinin MÃ¼asir Texnologiyalarda Rolu</li>
+                <li>10. BÉ™rpa Olunan Enerji SistemlÉ™rinin Fiziki ÆsaslarÄ± vÉ™ Ä°ÅŸlÉ™mÉ™ PrinsiplÉ™ri</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>1. NYUTON QANUNLARININ MÜHƏNDİSLİKDƏ TƏTBİQİ VƏ REAL NÜMUNƏLƏR</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>1.1. GİRİŞ</h2>
+            <p>
+                İsaak Nyutonun hərəkət qanunları klassik mexanikanın əsasını təşkil edir və müasir mühəndisliyin 
+                fundamental prinsiplərindəndir. Bu qanunlar XVII əsrdə formalaşdırılsalar da, bu gün də avtomobil 
+                sənayesindən kosmik texnologiyaya, tikinti mühəndisliyindən robotexnikaya qədər geniş sahələrdə 
+                tətbiq olunur.
+            </p>
+            
+            <div class="info-box">
+                <h3>Nyuton Qanunlarının Əhəmiyyəti</h3>
+                <ul>
+                    <li>Mühəndislik hesablamalarının əsası</li>
+                    <li>Konstruksiya təhlükəsizliyinin təmin edilməsi</li>
+                    <li>Texniki sistemlərin optimallaşdırılması</li>
+                    <li>Yeni texnologiyaların inkişafı</li>
+                </ul>
+            </div>
+
+            <img src="C:/Users/alioz/.gemini/antigravity/brain/ada3a43b-4531-4573-a92e-06e40ec036d3/newton_laws_diagram_1764946953102.png" alt="Nyuton Qanunları Diaqramı" class="main-image">
+        </div>
+
+        <div class="content-section">
+            <h2>1.2. BİRİNCİ NYUTON QANUNU - İNERSİYA PRİNSİPİ</h2>
+            
+            <h3>1.2.1. Qanunun Formalaşdırılması</h3>
+            <p>
+                <strong>Birinci Nyuton Qanunu (İnersiya Qanunu):</strong> Hər bir cisim öz sükunət vəziyyətini 
+                və ya düzxətli bərabərsürətli hərəkətini saxlamağa çalışır, əgər ona xarici qüvvələr təsir 
+                etmirsə və ya bu qüvvələr bir-birini tarazlaşdırırsa.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ΣF = 0 ⟹ v = const</p>
+                <p class="formula-desc">Burada: ΣF - cismə təsir edən qüvvələrin cəmi, v - sürət</p>
+            </div>
+
+            <h3>1.2.2. Mühəndislikdə Tətbiqlər</h3>
+            
+            <h4>a) Avtomobil Təhlükəsizliyi</h4>
+            <p>
+                Təhlükəsizlik kəmərləri birinci Nyuton qanununun birbaşa tətbiqidir. Avtomobil qəfil dayananda, 
+                sərnişinlər inersiya qüvvəsi ilə irəli hərəkət etməyə davam edir. Təhlükəsizlik kəmərləri bu 
+                hərəkəti məhdudlaşdıraraq zədələnmələrin qarşısını alır.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Avtomobil Qəzası Təhlili</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Avtomobilin sürəti: v = 90 km/saat = 25 m/s</li>
+                    <li>Sərnişinin kütləsi: m = 70 kq</li>
+                    <li>Dayanma müddəti: t = 0.5 saniyə</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Təcil: a = Δv/t = 25/0.5 = 50 m/s²</p>
+                <p>Təsir edən qüvvə: F = ma = 70 × 50 = 3500 N</p>
+                <p><strong>Nəticə:</strong> Təhlükəsizlik kəməri olmadan sərnişin 3500 N qüvvə ilə irəli atılacaq.</p>
+            </div>
+
+            <h4>b) Kosmik Texnologiya</h4>
+            <p>
+                Kosmosda sürtünmə qüvvələri olmadığından, kosmik gəmilər bir dəfə təkan aldıqdan sonra 
+                əlavə enerji sərf etmədən hərəkətə davam edə bilir. Bu, uzun məsafəli kosmik missiyaların 
+                enerji səmərəliliyini təmin edir.
+            </p>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>1.3. İKİNCİ NYUTON QANUNU - QÜVVƏ VƏ TƏCIL</h2>
+            
+            <h3>1.3.1. Qanunun Formalaşdırılması</h3>
+            <p>
+                <strong>İkinci Nyuton Qanunu:</strong> Cismə təsir edən qüvvə onun kütləsi ilə təcilinin 
+                hasilinə bərabərdir. Bu qanun mühəndisliyin ən çox istifadə olunan fundamental tənliyidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">F = ma</p>
+                <p class="formula-desc">
+                    F - qüvvə (Nyuton, N)<br>
+                    m - kütlə (kiloqram, kq)<br>
+                    a - təcil (m/s²)
+                </p>
+            </div>
+
+            <img src="C:/Users/alioz/.gemini/antigravity/brain/ada3a43b-4531-4573-a92e-06e40ec036d3/rocket_forces_1764946985271.png" alt="Raket Qüvvələri" class="main-image">
+
+            <h3>1.3.2. Raket Mühəndisliyində Tətbiq</h3>
+            <p>
+                Raketlərin dizaynında ikinci Nyuton qanunu həlledici rol oynayır. Raket mühərrikinin 
+                yaratdığı itələyici qüvvə raketin kütləsi və tələb olunan təcil əsasında hesablanır.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Raket Buraxılışı</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Raketin kütləsi: m = 500,000 kq</li>
+                    <li>Tələb olunan təcil: a = 20 m/s²</li>
+                    <li>Cazibə təcili: g = 9.8 m/s²</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Cazibə qüvvəsi: F<sub>g</sub> = mg = 500,000 × 9.8 = 4,900,000 N</p>
+                <p>Təcil üçün lazım olan qüvvə: F<sub>a</sub> = ma = 500,000 × 20 = 10,000,000 N</p>
+                <p>Ümumi itələyici qüvvə: F<sub>total</sub> = F<sub>g</sub> + F<sub>a</sub> = 14,900,000 N ≈ 15 MN</p>
+                <p><strong>Nəticə:</strong> Raket mühərriki minimum 15 meqanyuton itələyici qüvvə yaratmalıdır.</p>
+            </div>
+
+            <h3>1.3.3. Lift Sistemlərində Tətbiq</h3>
+            <p>
+                Lift sistemlərinin dizaynında ikinci Nyuton qanunu kabelin gərginliyini, mühərrik gücünü 
+                və təhlükəsizlik parametrlərini hesablamaq üçün istifadə olunur.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Lift Kabeli Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Lift kabininin kütləsi: m<sub>k</sub> = 800 kq</li>
+                    <li>Maksimum yük: m<sub>y</sub> = 1000 kq</li>
+                    <li>Yuxarı təcil: a = 2 m/s²</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Ümumi kütlə: m = m<sub>k</sub> + m<sub>y</sub> = 1800 kq</p>
+                <p>Cazibə qüvvəsi: F<sub>g</sub> = mg = 1800 × 9.8 = 17,640 N</p>
+                <p>Təcil qüvvəsi: F<sub>a</sub> = ma = 1800 × 2 = 3,600 N</p>
+                <p>Kabel gərginliyi: T = F<sub>g</sub> + F<sub>a</sub> = 21,240 N</p>
+                <p><strong>Təhlükəsizlik əmsalı ilə:</strong> T<sub>dizayn</sub> = 3 × 21,240 = 63,720 N</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>1.4. ÜÇÜNCÜ NYUTON QANUNU - TƏSİR VƏ ƏKSTƏSİR</h2>
+            
+            <h3>1.4.1. Qanunun Formalaşdırılması</h3>
+            <p>
+                <strong>Üçüncü Nyuton Qanunu:</strong> Hər bir təsir qüvvəsinə bərabər və əks istiqamətli 
+                əkstəsir qüvvəsi uyğundur. Bu qanun qarşılıqlı təsirlərin fundamental prinsipini ifadə edir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">F<sub>12</sub> = -F<sub>21</sub></p>
+                <p class="formula-desc">
+                    F<sub>12</sub> - birinci cismin ikinciyə təsiri<br>
+                    F<sub>21</sub> - ikinci cismin birinciyə təsiri
+                </p>
+            </div>
+
+            <h3>1.4.2. Körpü Mühəndisliyində Tətbiq</h3>
+            <p>
+                Körpü konstruksiyalarında üçüncü Nyuton qanunu yük paylama və dayaq nöqtələrinin 
+                hesablanmasında əsas rol oynayır.
+            </p>
+
+            <img src="C:/Users/alioz/.gemini/antigravity/brain/ada3a43b-4531-4573-a92e-06e40ec036d3/bridge_forces_1764946969887.png" alt="Körpü Qüvvələri" class="main-image">
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Asma Körpü Təhlili</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Körpü uzunluğu: L = 200 m</li>
+                    <li>Körpü kütləsi: m = 500 ton = 500,000 kq</li>
+                    <li>Əlavə yük (nəqliyyat): m<sub>y</sub> = 100 ton = 100,000 kq</li>
+                    <li>Dayaq nöqtələrinin sayı: n = 2</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Ümumi çəki: W = (m + m<sub>y</sub>)g = 600,000 × 9.8 = 5,880,000 N</p>
+                <p>Hər dayaq nöqtəsinə düşən qüvvə: F<sub>dayaq</sub> = W/2 = 2,940,000 N ≈ 3 MN</p>
+                <p>Kabel gərginliyi (təxmini): T ≈ 1.5 × F<sub>dayaq</sub> = 4,410,000 N</p>
+                <p><strong>Nəticə:</strong> Hər dayaq nöqtəsi təxminən 3 MN reaksiya qüvvəsi yaradır.</p>
+            </div>
+
+            <h3>1.4.3. Reaktiv Mühərriklərdə Tətbiq</h3>
+            <p>
+                Təyyarə və raket mühərriklərinin işləmə prinsipi birbaşa üçüncü Nyuton qanununa əsaslanır. 
+                Mühərrik qazları geriyə ataraq (təsir), irəli itələyici qüvvə (əkstəsir) əldə edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Reaktiv Mühərrikin İşləmə Prinsipi</h4>
+                <ul>
+                    <li><strong>Təsir:</strong> Yanacaq yanması nəticəsində yaranan qazlar yüksək sürətlə geriyə atılır</li>
+                    <li><strong>Əkstəsir:</strong> Qazların geriyə atılması təyyarəni irəli itələyir</li>
+                    <li><strong>İmpuls saxlanması:</strong> m<sub>qaz</sub>v<sub>qaz</sub> = m<sub>təyyarə</sub>v<sub>təyyarə</sub></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>1.5. KOMPLEKS MÜHƏNDİSLİK SİSTEMLƏRİNDƏ TƏTBİQ</h2>
+            
+            <h3>1.5.1. Avtomobil Asqı Sistemi</h3>
+            <p>
+                Müasir avtomobil asqı sistemləri Nyuton qanunlarının mürəkkəb tətbiqini nümayiş etdirir. 
+                Sistem yol qeyri-bərabərliklərindən yaranan qüvvələri udmaq və sərnişin rahatlığını 
+                təmin etmək üçün dizayn edilir.
+            </p>
+
+            <h4>Asqı Sisteminin Komponentləri:</h4>
+            <ul>
+                <li><strong>Yaylar:</strong> Şaquli qüvvələri udur və enerji saxlayır</li>
+                <li><strong>Amortizatorlar:</strong> Rəqsləri söndürür və enerji dissipasiya edir</li>
+                <li><strong>Stabilizatorlar:</strong> Dönmələrdə tarazlığı təmin edir</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Asqı Sistemi Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Avtomobil kütləsi: m = 1500 kq</li>
+                    <li>Yay sabiti (hər təkər): k = 25,000 N/m</li>
+                    <li>Yol qeyri-bərabərliyi: h = 10 sm = 0.1 m</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Hər təkərə düşən kütlə: m<sub>t</sub> = 1500/4 = 375 kq</p>
+                <p>Yay sıxılması: x = F/k = (m<sub>t</sub>g)/k = (375 × 9.8)/25,000 = 0.147 m</p>
+                <p>Maksimum qüvvə: F<sub>max</sub> = k(x + h) = 25,000 × 0.247 = 6,175 N</p>
+                <p><strong>Nəticə:</strong> Hər yay maksimum 6,175 N qüvvəyə tab gətməlidir.</p>
+            </div>
+
+            <h3>1.5.2. Kranlar və Qaldırıcı Mexanizmlər</h3>
+            <p>
+                Tikinti kranları və qaldırıcı mexanizmlər Nyuton qanunlarının praktik tətbiqinin 
+                mükəmməl nümunələridir. Bu sistemlərdə qüvvə balansı, moment hesablamaları və 
+                stabillik təhlili həyati əhəmiyyət kəsb edir.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 6: Qaldırıcı Kran Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Qaldırılan yük: m = 5000 kq</li>
+                    <li>Kran qolu uzunluğu: L = 30 m</li>
+                    <li>Qaldırma sürəti: v = 0.5 m/s</li>
+                    <li>Təcil müddəti: t = 2 s</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Yükün çəkisi: W = mg = 5000 × 9.8 = 49,000 N</p>
+                <p>Təcil: a = v/t = 0.5/2 = 0.25 m/s²</p>
+                <p>Dinamik qüvvə: F<sub>d</sub> = ma = 5000 × 0.25 = 1,250 N</p>
+                <p>Ümumi kabel gərginliyi: T = W + F<sub>d</sub> = 50,250 N</p>
+                <p>Moment (qol ətrafında): M = T × L = 50,250 × 30 = 1,507,500 N·m</p>
+                <p><strong>Nəticə:</strong> Kran bazası bu momenti tarazlaşdıra bilməlidir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>1.6. DİNAMİK SİSTEMLƏRDƏ NYUTON QANUNLARI</h2>
+            
+            <h3>1.6.1. Dönmə Hərəkəti və Moment</h3>
+            <p>
+                Nyuton qanunları dönmə hərəkətinə də tətbiq olunur. Xətti hərəkətdə qüvvə və kütlə 
+                kimi, dönmə hərəkətində moment və ətalət momenti istifadə olunur.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">τ = Iα</p>
+                <p class="formula-desc">
+                    τ - moment (N·m)<br>
+                    I - ətalət momenti (kq·m²)<br>
+                    α - bucaq təcili (rad/s²)
+                </p>
+            </div>
+
+            <h4>Mühəndislik Tətbiqləri:</h4>
+            <ul>
+                <li><strong>Maşın mühərrikləri:</strong> Krank valının dönmə dinamikası</li>
+                <li><strong>Turbinlər:</strong> Fırlanan lövhələrin moment hesablamaları</li>
+                <li><strong>Robotlar:</strong> Manipulyator qollarının hərəkət nəzarəti</li>
+                <li><strong>Giroskopar:</strong> Naviqasiya və stabilizasiya sistemləri</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 7: Turbina Diskinin Təcili</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Disk radiusu: r = 0.5 m</li>
+                    <li>Disk kütləsi: m = 50 kq</li>
+                    <li>Tətbiq olunan moment: τ = 200 N·m</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Disk üçün ətalət momenti: I = ½mr² = 0.5 × 50 × 0.5² = 6.25 kq·m²</p>
+                <p>Bucaq təcili: α = τ/I = 200/6.25 = 32 rad/s²</p>
+                <p>1 saniyədən sonra bucaq sürəti: ω = αt = 32 × 1 = 32 rad/s</p>
+                <p>Dövr sayı (RPM): n = (ω × 60)/(2π) = (32 × 60)/(2π) ≈ 305 RPM</p>
+                <p><strong>Nəticə:</strong> Turbina 1 saniyədə 305 dövr/dəqiqə sürətə çatır.</p>
+            </div>
+
+            <h3>1.6.2. Sürtünmə Qüvvələri</h3>
+            <p>
+                Real mühəndislik sistemlərində sürtünmə qüvvələri mühüm rol oynayır. Sürtünmə 
+                bəzi hallarda faydalı (əyləclər), bəzi hallarda isə zərərli (enerji itkisi) ola bilər.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">F<sub>sürtünmə</sub> = μN</p>
+                <p class="formula-desc">
+                    μ - sürtünmə əmsalı<br>
+                    N - normal qüvvə
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h4>Sürtünmə Əmsalları (Tipik Dəyərlər)</h4>
+                <ul>
+                    <li>Polad-polad (quru): μ = 0.6</li>
+                    <li>Polad-polad (yağlanmış): μ = 0.1</li>
+                    <li>Rezin-asfalt (quru): μ = 0.7</li>
+                    <li>Rezin-asfalt (yaş): μ = 0.4</li>
+                    <li>Teflon-polad: μ = 0.04</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>1.7. MÜASİR TEXNOLOGİYALARDA TƏTBİQLƏR</h2>
+            
+            <h3>1.7.1. Avtopilot Sistemləri</h3>
+            <p>
+                Müasir avtomobillərdə istifadə olunan avtopilot sistemləri Nyuton qanunlarına əsaslanan 
+                mürəkkəb alqoritmlərdən istifadə edir. Sistem daim avtomobilin sürətini, təcilini və 
+                ətraf mühiti monitorinq edərək optimal hərəkət strategiyası müəyyənləşdirir.
+            </p>
+
+            <h4>Sistem Komponentləri:</h4>
+            <ul>
+                <li><strong>Sensorlar:</strong> Radar, lidar, kameralar</li>
+                <li><strong>Hesablama vahidi:</strong> Real vaxt dinamika hesablamaları</li>
+                <li><strong>Aktuatorlar:</strong> Sükan, əyləc, qaz pedalı nəzarəti</li>
+                <li><strong>AI alqoritmləri:</strong> Qərar qəbuletmə və proqnozlaşdırma</li>
+            </ul>
+
+            <h3>1.7.2. Dron Texnologiyası</h3>
+            <p>
+                Kvadrokopterlər və digər dronlar Nyuton qanunlarının mürəkkəb tətbiqini tələb edir. 
+                Hər bir rotordan yaranan qüvvə dəqiq hesablanmalı və nəzarət edilməlidir.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 8: Kvadrokopter Stabilizasiyası</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Dron kütləsi: m = 2 kq</li>
+                    <li>Rotor sayı: n = 4</li>
+                    <li>Hər rotorun maksimum qüvvəsi: F<sub>max</sub> = 8 N</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Çəki: W = mg = 2 × 9.8 = 19.6 N</p>
+                <p>Asılı vəziyyət üçün hər rotor: F<sub>rotor</sub> = W/4 = 4.9 N</p>
+                <p>Ehtiyat qüvvə: F<sub>ehtiyat</sub> = F<sub>max</sub> - F<sub>rotor</sub> = 8 - 4.9 = 3.1 N</p>
+                <p>Maksimum yuxarı təcil: a<sub>max</sub> = (4F<sub>max</sub> - W)/m = (32 - 19.6)/2 = 6.2 m/s²</p>
+                <p><strong>Nəticə:</strong> Dron 6.2 m/s² təcillə yuxarı qalxa bilər.</p>
+            </div>
+
+            <h3>1.7.3. Sənaye Robotları</h3>
+            <p>
+                Sənaye robotlarının hərəkət planlaması və nəzarəti Nyuton qanunlarına əsaslanır. 
+                Robotun hər bir oynağının hərəkəti dəqiq hesablanmalı və koordinasiya edilməlidir.
+            </p>
+
+            <div class="info-box">
+                <h4>Robot Manipulyatorunda Qüvvə Nəzarəti</h4>
+                <ul>
+                    <li>Hər oynağın moment hesablaması</li>
+                    <li>Yükün dinamik təsirinin kompensasiyası</li>
+                    <li>Sürtünmə və elastiklik effektlərinin nəzərə alınması</li>
+                    <li>Траектория planlaması və optimallaşdırma</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>1.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+            
+            <h3>1.8.1. Əsas Nəticələr</h3>
+            <p>
+                Nyuton qanunları klassik mexanikanın əsasını təşkil edir və müasir mühəndisliyin 
+                ayrılmaz hissəsidir. Bu qanunların tətbiqi sahələri:
+            </p>
+
+            <ul>
+                <li><strong>Nəqliyyat:</strong> Avtomobil, təyyarə, gəmi, qatar dizaynı</li>
+                <li><strong>Tikinti:</strong> Körpü, bina, tunel konstruksiyaları</li>
+                <li><strong>Kosmik texnologiya:</strong> Raket, peyk, kosmik stansiyalar</li>
+                <li><strong>Robotexnika:</strong> Sənaye və xidmət robotları</li>
+                <li><strong>Enerji:</strong> Turbinlər, generatorlar, mühərriklər</li>
+            </ul>
+
+            <h3>1.8.2. Müasir Çağırışlar</h3>
+            <p>
+                XXI əsrdə mühəndislər Nyuton qanunlarını daha mürəkkəb sistemlərə tətbiq edirlər:
+            </p>
+
+            <div class="info-box">
+                <h4>Yeni Tətbiq Sahələri</h4>
+                <ul>
+                    <li><strong>Mikro və nano texnologiyalar:</strong> Çox kiçik miqyasda mexanika</li>
+                    <li><strong>Biomexanika:</strong> Süni orqanlar və protezlər</li>
+                    <li><strong>Ağıllı materiallar:</strong> Adaptiv konstruksiyalar</li>
+                    <li><strong>Kvant texnologiyaları:</strong> Klassik və kvant mexanikasının inteqrasiyası</li>
+                </ul>
+            </div>
+
+            <h3>1.8.3. Praktik Tövsiyələr</h3>
+            <p>
+                Mühəndislik layihələrində Nyuton qanunlarının tətbiqi zamanı nəzərə alınmalı məqamlar:
+            </p>
+
+            <ol>
+                <li><strong>Təhlükəsizlik əmsalı:</strong> Hesablanmış qüvvələrə 2-3 dəfə ehtiyat əlavə edin</li>
+                <li><strong>Dinamik yüklər:</strong> Statik yüklərlə yanaşı, dinamik təsirləri də nəzərə alın</li>
+                <li><strong>Material xassələri:</strong> Materialın möhkəmlik və elastiklik xüsusiyyətlərini yoxlayın</li>
+                <li><strong>Mühit şəraiti:</strong> Temperatur, rütubət, korroziya təsirlərini qiymətləndirin</li>
+                <li><strong>Uzunmüddətli təsirlər:</strong> Yorğunluq və aşınma proseslərini proqnozlaşdırın</li>
+            </ol>
+
+            <h3>1.8.4. Gələcək İnkişaf İstiqamətləri</h3>
+            <p>
+                Nyuton qanunlarının tətbiqi sahələri davamlı olaraq genişlənir. Gələcəkdə gözlənilən 
+                inkişaf istiqamətləri:
+            </p>
+
+            <ul>
+                <li>Süni intellekt və maşın öyrənməsi ilə inteqrasiya</li>
+                <li>Real vaxt simulyasiya və optimallaşdırma</li>
+                <li>Çoxfunksiyalı və adaptiv sistemlər</li>
+                <li>Enerji səmərəliliyinin artırılması</li>
+                <li>Ekoloji cəhətdən təmiz texnologiyalar</li>
+            </ul>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Nyuton qanunları 300 ildən artıqdır ki, mühəndisliyə xidmət edir və bu gün də 
+                    öz aktuallığını saxlayır. Bu qanunların dərin başa düşülməsi və düzgün tətbiqi 
+                    təhlükəsiz, səmərəli və innovativ mühəndislik həllərinin yaradılması üçün 
+                    zəruridir. Müasir texnologiyaların inkişafı ilə bu fundamental prinsiplərin 
+                    tətbiq sahələri daha da genişlənir və mürəkkəbləşir.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>2. MADDƏNİN MEXANİKİ XASSƏLƏRI: ELASTİKLİK VƏ DEFORMASİYANIN TEXNOLOJİ ƏHƏMİYYƏTİ</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>2.1. GİRİŞ</h2>
+            <p>
+                Maddənin mexaniki xassələri mühəndislik materiallarının seçimi və tətbiqində həlledici
+                rol oynayır. Elastiklik, plastiklik, möhkəmlik və digər xassələr konstruksiyaların
+                təhlükəsizliyini, davamlılığını və funksionallığını təyin edir.
+            </p>
+
+            <div class="info-box">
+                <h3>Əsas Mexaniki Xassələr</h3>
+                <ul>
+                    <li><strong>Elastiklik:</strong> Yükdən sonra ilkin formaya qayıtma qabiliyyəti</li>
+                    <li><strong>Plastiklik:</strong> Daimi deformasiya qabiliyyəti</li>
+                    <li><strong>Möhkəmlik:</strong> Qırılmaya müqavimət</li>
+                    <li><strong>Sərtlik:</strong> Cızılmaya və deşilməyə müqavimət</li>
+                    <li><strong>Çeviklik:</strong> Qırılmadan əyilmə qabiliyyəti</li>
+                </ul>
+            </div>
+
+            <img src="C:/Users/alioz/.gemini/antigravity/brain/ada3a43b-4531-4573-a92e-06e40ec036d3/stress_strain_diagram_1764947189266.png"
+                alt="Gərginlik-Deformasiya Diaqramı" class="main-image">
+        </div>
+
+        <div class="content-section">
+            <h2>2.2. GƏRGİNLİK VƏ DEFORMASİYA ANLAYIŞLARI</h2>
+
+            <h3>2.2.1. Gərginlik (Stress - σ)</h3>
+            <p>
+                Gərginlik materialın vahid sahəsinə düşən qüvvə kimi müəyyən edilir və materialın
+                daxilində yaranan daxili qüvvələri xarakterizə edir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">σ = F/A</p>
+                <p class="formula-desc">
+                    σ - gərginlik (Pa və ya N/m²)<br>
+                    F - tətbiq olunan qüvvə (N)<br>
+                    A - en kəsik sahəsi (m²)
+                </p>
+            </div>
+
+            <h4>Gərginlik Növləri:</h4>
+            <ul>
+                <li><strong>Dartılma gərginliyi:</strong> Material dartıldıqda</li>
+                <li><strong>Sıxılma gərginliyi:</strong> Material sıxıldıqda</li>
+                <li><strong>Kəsmə gərginliyi:</strong> Paralel qüvvələr təsir etdikdə</li>
+                <li><strong>Burulma gərginliyi:</strong> Material burulduqda</li>
+            </ul>
+
+            <h3>2.2.2. Deformasiya (Strain - ε)</h3>
+            <p>
+                Deformasiya materialın ölçülərindəki nisbi dəyişiklikdir və ölçüsüz kəmiyyətdir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ε = ΔL/L₀</p>
+                <p class="formula-desc">
+                    ε - deformasiya (ölçüsüz)<br>
+                    ΔL - uzunluq dəyişikliyi (m)<br>
+                    L₀ - ilkin uzunluq (m)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Polad Məftil Dartılması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Məftil uzunluğu: L₀ = 2 m</li>
+                    <li>Məftil diametri: d = 5 mm = 0.005 m</li>
+                    <li>Tətbiq olunan qüvvə: F = 1000 N</li>
+                    <li>Uzanma: ΔL = 2 mm = 0.002 m</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>En kəsik sahəsi: A = πd²/4 = π(0.005)²/4 = 1.96 × 10⁻⁵ m²</p>
+                <p>Gərginlik: σ = F/A = 1000/(1.96 × 10⁻⁵) = 51 × 10⁶ Pa = 51 MPa</p>
+                <p>Deformasiya: ε = ΔL/L₀ = 0.002/2 = 0.001 = 0.1%</p>
+                <p><strong>Nəticə:</strong> Material 51 MPa gərginlik altında 0.1% deformasiya göstərir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>2.3. HUK QANUNU VƏ ELASTİKLİK</h2>
+
+            <h3>2.3.1. Huk Qanununun Formalaşdırılması</h3>
+            <p>
+                Robert Huk 1660-cı ildə kəşf etdiyi qanuna görə, elastik deformasiya oblastında
+                gərginlik deformasiya ilə düz mütənasibdir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">σ = Eε</p>
+                <p class="formula-desc">
+                    E - Yung modulu (elastiklik modulu) (Pa)<br>
+                    Bu material sabitidir və materialın sərtliyini xarakterizə edir
+                </p>
+            </div>
+
+            <img src="C:/Users/alioz/.gemini/antigravity/brain/ada3a43b-4531-4573-a92e-06e40ec036d3/material_deformation_1764947207808.png"
+                alt="Material Deformasiyası" class="main-image">
+
+            <h3>2.3.2. Yung Modulu</h3>
+            <p>
+                Yung modulu materialın elastikliyinin ölçüsüdür. Yüksək Yung modulu materialın
+                daha sərt olduğunu göstərir.
+            </p>
+
+            <div class="info-box">
+                <h4>Müxtəlif Materiallar üçün Yung Modulu</h4>
+                <ul>
+                    <li>Polad: E = 200 GPa</li>
+                    <li>Alüminium: E = 70 GPa</li>
+                    <li>Mis: E = 120 GPa</li>
+                    <li>Beton: E = 30 GPa</li>
+                    <li>Ağac: E = 10-15 GPa</li>
+                    <li>Rezin: E = 0.01-0.1 GPa</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Körpü Kabeli Uzanması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Polad kabel uzunluğu: L₀ = 100 m</li>
+                    <li>Kabel diametri: d = 50 mm = 0.05 m</li>
+                    <li>Yük: F = 500,000 N</li>
+                    <li>Poladın Yung modulu: E = 200 GPa = 200 × 10⁹ Pa</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>En kəsik sahəsi: A = πd²/4 = π(0.05)²/4 = 1.96 × 10⁻³ m²</p>
+                <p>Gərginlik: σ = F/A = 500,000/(1.96 × 10⁻³) = 255 × 10⁶ Pa = 255 MPa</p>
+                <p>Deformasiya: ε = σ/E = 255 × 10⁶/(200 × 10⁹) = 0.001275</p>
+                <p>Uzanma: ΔL = εL₀ = 0.001275 × 100 = 0.1275 m = 12.75 sm</p>
+                <p><strong>Nəticə:</strong> 500 kN yük altında kabel 12.75 sm uzanır.</p>
+            </div>
+
+            <h3>2.3.3. Puasson Əmsalı</h3>
+            <p>
+                Material dartıldıqda uzununa istiqamətdə uzanır, eninə istiqamətdə isə daralır.
+                Puasson əmsalı bu iki deformasiyanın nisbətini göstərir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ν = -ε<sub>eninə</sub>/ε<sub>uzununa</sub></p>
+                <p class="formula-desc">
+                    ν - Puasson əmsalı (0 ilə 0.5 arasında)<br>
+                    Əksər metallar üçün: ν ≈ 0.3
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>2.4. PLASTİK DEFORMASİYA VƏ AXMA</h2>
+
+            <h3>2.4.1. Axma Həddi</h3>
+            <p>
+                Axma həddi materialın elastik deformasiyadan plastik deformasiyaya keçdiyi
+                gərginlik səviyyəsidir. Bu nöqtədən sonra material yükdən azad edildikdə
+                ilkin formasına qayıtmır.
+            </p>
+
+            <div class="info-box">
+                <h4>Gərginlik-Deformasiya Əyrisinin Əsas Nöqtələri</h4>
+                <ul>
+                    <li><strong>Elastik limit:</strong> Elastik deformasiyanın maksimum nöqtəsi</li>
+                    <li><strong>Axma nöqtəsi:</strong> Plastik deformasiyanın başlanğıcı</li>
+                    <li><strong>Maksimum gərginlik:</strong> Materialın tab edə biləcəyi ən yüksək gərginlik</li>
+                    <li><strong>Qırılma nöqtəsi:</strong> Materialın qırıldığı nöqtə</li>
+                </ul>
+            </div>
+
+            <h3>2.4.2. Mühəndislikdə Təhlükəsizlik Əmsalı</h3>
+            <p>
+                Təhlükəsizlik əmsalı konstruksiyanın dizaynında istifadə olunan gərginliyin
+                materialın axma gərginliyinə nisbətidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">n = σ<sub>axma</sub>/σ<sub>işçi</sub></p>
+                <p class="formula-desc">
+                    n - təhlükəsizlik əmsalı (adətən 2-4 arası)<br>
+                    σ<sub>axma</sub> - axma gərginliyi<br>
+                    σ<sub>işçi</sub> - işçi gərginlik
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Tikinti Konstruksiyası Dizaynı</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Polad tir en kəsiyi: A = 0.01 m²</li>
+                    <li>Poladın axma gərginliyi: σ<sub>axma</sub> = 250 MPa</li>
+                    <li>Təhlükəsizlik əmsalı: n = 3</li>
+                    <li>Tələb olunan yük daşıma: F = ?</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>İcazə verilən işçi gərginlik: σ<sub>işçi</sub> = σ<sub>axma</sub>/n = 250/3 = 83.3 MPa</p>
+                <p>Maksimum yük: F = σ<sub>işçi</sub> × A = 83.3 × 10⁶ × 0.01 = 833,000 N = 833 kN</p>
+                <p><strong>Nəticə:</strong> Tir təhlükəsiz olaraq 833 kN yük daşıya bilər.</p>
+            </div>
+
+            <h3>2.4.3. Sərtləşmə və Temperleme</h3>
+            <p>
+                Metalların mexaniki xassələri istilik emalı ilə dəyişdirilə bilər. Sərtləşmə
+                materialı daha möhkəm, temperleme isə daha çevik edir.
+            </p>
+
+            <ul>
+                <li><strong>Sərtləşmə:</strong> Yüksək temperaturda qızdırıb sürətlə soyutma</li>
+                <li><strong>Temperleme:</strong> Sərtləşdirilmiş materialı orta temperaturda qızdırma</li>
+                <li><strong>Tavlama:</strong> Yavaş soyutma ilə daxili gərginliklərin aradan qaldırılması</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>2.5. KƏSMƏ VƏ BURULMA GƏRGİNLİKLƏRİ</h2>
+
+            <h3>2.5.1. Kəsmə Gərginliyi</h3>
+            <p>
+                Kəsmə gərginliyi materialın səthlərinə paralel təsir edən qüvvələrdən yaranır.
+                Perçinlər, boltlar və qaynaq birləşmələrində kəsmə gərginlikləri mühüm rol oynayır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">τ = F/A</p>
+                <p class="formula-desc">
+                    τ - kəsmə gərginliyi (Pa)<br>
+                    F - kəsmə qüvvəsi (N)<br>
+                    A - kəsmə sahəsi (m²)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Bolt Birləşməsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Bolt diametri: d = 20 mm = 0.02 m</li>
+                    <li>Tətbiq olunan qüvvə: F = 50,000 N</li>
+                    <li>Kəsmə müstəvilərinin sayı: n = 2 (ikiqat kəsmə)</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Bolt en kəsiyi: A = πd²/4 = π(0.02)²/4 = 3.14 × 10⁻⁴ m²</p>
+                <p>Ümumi kəsmə sahəsi: A<sub>total</sub> = n × A = 2 × 3.14 × 10⁻⁴ = 6.28 × 10⁻⁴ m²</p>
+                <p>Kəsmə gərginliyi: τ = F/A<sub>total</sub> = 50,000/(6.28 × 10⁻⁴) = 79.6 × 10⁶ Pa = 79.6 MPa</p>
+                <p><strong>Nəticə:</strong> Bolt 79.6 MPa kəsmə gərginliyinə məruz qalır.</p>
+            </div>
+
+            <h3>2.5.2. Burulma Gərginliyi</h3>
+            <p>
+                Burulma gərginliyi val və oxlarda moment tətbiq edildikdə yaranır. Avtomobil
+                transmissiyası, mühərrik valları və digər fırlanan elementlərdə bu gərginlik növü
+                əsas rol oynayır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">τ = Tr/J</p>
+                <p class="formula-desc">
+                    T - burulma momenti (N·m)<br>
+                    r - radiusda məsafə (m)<br>
+                    J - qütb ətalət momenti (m⁴)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Mühərrik Valı</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Val diametri: d = 50 mm = 0.05 m</li>
+                    <li>Ötürülən güc: P = 100 kW</li>
+                    <li>Fırlanma tezliyi: n = 3000 RPM = 50 RPS</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Bucaq sürəti: ω = 2πn = 2π × 50 = 314.16 rad/s</p>
+                <p>Burulma momenti: T = P/ω = 100,000/314.16 = 318.3 N·m</p>
+                <p>Qütb ətalət momenti: J = πd⁴/32 = π(0.05)⁴/32 = 6.14 × 10⁻⁷ m⁴</p>
+                <p>Maksimum kəsmə gərginliyi: τ<sub>max</sub> = Tr/J = 318.3 × 0.025/(6.14 × 10⁻⁷) = 13 × 10⁶ Pa = 13
+                    MPa</p>
+                <p><strong>Nəticə:</strong> Valda maksimum kəsmə gərginliyi 13 MPa-dır.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>2.6. YORĞUNLUQ VƏ SÜRÜNMƏ</h2>
+
+            <h3>2.6.1. Yorğunluq Qırılması</h3>
+            <p>
+                Yorğunluq materialın təkrarlanan yüklənmə altında axma gərginliyindən aşağı
+                gərginliklərdə belə qırılmasıdır. Bu, təyyarə, körpü və maşın hissələrində
+                əsas problemlərdən biridir.
+            </p>
+
+            <div class="info-box">
+                <h4>Yorğunluğa Təsir Edən Amillər</h4>
+                <ul>
+                    <li>Yüklənmə tsiklərinin sayı</li>
+                    <li>Gərginlik amplitudu</li>
+                    <li>Səth keyfiyyəti və çatlar</li>
+                    <li>Temperatur dəyişiklikləri</li>
+                    <li>Korroziya mühiti</li>
+                </ul>
+            </div>
+
+            <h4>S-N Əyrisi (Vöhler Əyrisi)</h4>
+            <p>
+                S-N əyrisi gərginlik amplitudu (S) ilə qırılmaya qədər tsikl sayı (N) arasındakı
+                əlaqəni göstərir. Bu əyri materialın yorğunluq xarakteristikasını müəyyən edir.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 6: Təyyarə Qanadı Yorğunluq Təhlili</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Maksimum gərginlik: σ<sub>max</sub> = 150 MPa</li>
+                    <li>Minimum gərginlik: σ<sub>min</sub> = 50 MPa</li>
+                    <li>Materialın yorğunluq limiti: σ<sub>f</sub> = 200 MPa (10⁷ tsikl)</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Gərginlik amplitudu: σ<sub>a</sub> = (σ<sub>max</sub> - σ<sub>min</sub>)/2 = (150 - 50)/2 = 50 MPa
+                </p>
+                <p>Orta gərginlik: σ<sub>m</sub> = (σ<sub>max</sub> + σ<sub>min</sub>)/2 = (150 + 50)/2 = 100 MPa</p>
+                <p><strong>Qiymətləndirmə:</strong> Gərginlik amplitudu yorğunluq limitindən aşağı olduğundan,
+                    material teorik olaraq sonsuz tsiklə tab gətə bilər.</p>
+            </div>
+
+            <h3>2.6.2. Sürünmə (Creep)</h3>
+            <p>
+                Sürünmə yüksək temperaturda sabit gərginlik altında materialın zamanla yavaş-yavaş
+                deformasiyasıdır. Bu, turbinlər, qazan boruları və raket mühərriklərində mühüm problemdir.
+            </p>
+
+            <h4>Sürünmə Mərhələləri:</h4>
+            <ol>
+                <li><strong>Birinci mərhələ:</strong> Sürətli başlanğıc deformasiyası</li>
+                <li><strong>İkinci mərhələ:</strong> Sabit sürətli deformasiya</li>
+                <li><strong>Üçüncü mərhələ:</strong> Sürətlənən deformasiya və qırılma</li>
+            </ol>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>2.7. MATERİAL SEÇİMİ VƏ TƏTBİQLƏR</h2>
+
+            <h3>2.7.1. Tikinti Materialları</h3>
+            <p>
+                Tikinti mühəndisliyində material seçimi konstruksiyanın təhlükəsizliyi, davamlılığı
+                və iqtisadiyyatı üçün həlledicidir.
+            </p>
+
+            <div class="info-box">
+                <h4>Əsas Tikinti Materiallarının Xassələri</h4>
+                <ul>
+                    <li><strong>Polad:</strong> Yüksək möhkəmlik, elastiklik, qaynaq qabiliyyəti</li>
+                    <li><strong>Beton:</strong> Yüksək sıxılma möhkəmliyi, aşağı dartılma möhkəmliyi</li>
+                    <li><strong>Dəmir-beton:</strong> Betonun və poladın üstünlüklərini birləşdirir</li>
+                    <li><strong>Ağac:</strong> Yüngül, emal asanlığı, orta möhkəmlik</li>
+                    <li><strong>Alüminium:</strong> Yüngül, korroziyaya davamlı, orta möhkəmlik</li>
+                </ul>
+            </div>
+
+            <h3>2.7.2. Aviasiya Materialları</h3>
+            <p>
+                Aviasiyada yüngül və yüksək möhkəmlikli materiallar tələb olunur. Möhkəmlik/çəki
+                nisbəti (spesifik möhkəmlik) əsas parametrdir.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 7: Material Müqayisəsi</h4>
+                <p><strong>Müxtəlif materialların spesifik möhkəmliyi:</strong></p>
+                <ul>
+                    <li>Polad: σ/ρ = 400 MPa / 7850 kq/m³ = 51 kN·m/kq</li>
+                    <li>Alüminium ərintisi: σ/ρ = 300 MPa / 2700 kq/m³ = 111 kN·m/kq</li>
+                    <li>Titan ərintisi: σ/ρ = 900 MPa / 4500 kq/m³ = 200 kN·m/kq</li>
+                    <li>Karbon fiber: σ/ρ = 3500 MPa / 1600 kq/m³ = 2188 kN·m/kq</li>
+                </ul>
+                <p><strong>Nəticə:</strong> Karbon fiber ən yüksək spesifik möhkəmliyə malikdir,
+                    lakin qiyməti də ən yüksəkdir.</p>
+            </div>
+
+            <h3>2.7.3. Kompozit Materiallar</h3>
+            <p>
+                Kompozit materiallar iki və ya daha çox materialın birləşməsindən yaranır və
+                hər birinin üstünlüklərini özündə birləşdirir.
+            </p>
+
+            <h4>Kompozit Material Növləri:</h4>
+            <ul>
+                <li><strong>Fiber gücləndirilmiş plastiklər:</strong> Karbon, şüşə və ya aramid lifləri</li>
+                <li><strong>Metal matrisli kompozitlər:</strong> Keramika hissəcikləri ilə gücləndirilmiş metal</li>
+                <li><strong>Keramika matrisli kompozitlər:</strong> Yüksək temperatura davamlı</li>
+                <li><strong>Hibrid kompozitlər:</strong> Müxtəlif fiber növlərinin kombinasiyası</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>2.8. NƏTİCƏ VƏ MÜHƏNDİSLİK TƏTBİQLƏRİ</h2>
+
+            <h3>2.8.1. Əsas Nəticələr</h3>
+            <p>
+                Maddənin mexaniki xassələrinin dərindən başa düşülməsi təhlükəsiz və səmərəli
+                mühəndislik konstruksiyalarının yaradılması üçün zəruridir.
+            </p>
+
+            <div class="info-box">
+                <h4>Mühəndislik Dizaynında Əsas Prinsiplər</h4>
+                <ul>
+                    <li>Təhlükəsizlik əmsalını həmişə nəzərə alın (n = 2-4)</li>
+                    <li>Dinamik yükləri statik yüklərdən fərqləndirin</li>
+                    <li>Yorğunluq və sürünmə effektlərini qiymətləndirin</li>
+                    <li>Mühit şəraitini (temperatur, rütubət, korroziya) nəzərə alın</li>
+                    <li>İqtisadi səmərəliliyi optimallaşdırın</li>
+                </ul>
+            </div>
+
+            <h3>2.8.2. Müasir Texnologiyalar</h3>
+            <p>
+                Müasir texnologiyalar materialların mexaniki xassələrinin daha dəqiq ölçülməsi
+                və optimallaşdırılmasına imkan verir:
+            </p>
+
+            <ul>
+                <li><strong>Sonlu elementlər metodu (FEM):</strong> Kompüter simulyasiyası ilə gərginlik təhlili</li>
+                <li><strong>3D çap:</strong> Kompleks geometriyalı hissələrin istehsalı</li>
+                <li><strong>Nano-materiallar:</strong> Atom səviyyəsində dizayn edilmiş materiallar</li>
+                <li><strong>Ağıllı materiallar:</strong> Mühit şəraitinə adaptasiya edən materiallar</li>
+            </ul>
+
+            <h3>2.8.3. Gələcək Perspektivləri</h3>
+            <p>
+                Material elminin inkişafı yeni mühəndislik imkanları yaradır:
+            </p>
+
+            <div class="example-box">
+                <h4>İnnovativ Material Texnologiyaları</h4>
+                <ul>
+                    <li><strong>Qrafenə əsaslanan materiallar:</strong> Fövqəladə möhkəmlik və yüngüllük</li>
+                    <li><strong>Özünü bərpa edən materiallar:</strong> Mikro-çatları avtomatik təmir edir</li>
+                    <li><strong>Metamateriallar:</strong> Təbiətdə olmayan xassələrə malik materiallar</li>
+                    <li><strong>Bio-əsaslı kompozitlər:</strong> Ekoloji cəhətdən təmiz alternativlər</li>
+                </ul>
+            </div>
+
+            <h3>2.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Material seçimi:</strong> Tətbiq şəraitinə uyğun material seçin</li>
+                <li><strong>Test və yoxlama:</strong> Kritik komponentləri dəqiq test edin</li>
+                <li><strong>Keyfiyyət nəzarəti:</strong> İstehsal prosesində davamlı monitorinq</li>
+                <li><strong>Texniki sənədləşmə:</strong> Bütün hesablamaları və qərarları sənədləşdirin</li>
+                <li><strong>Davamlı təkmilləşdirmə:</strong> Yeni materiallar və texnologiyaları izləyin</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Maddənin mexaniki xassələri mühəndisliyin fundamental əsaslarından biridir.
+                    Elastiklik, plastiklik, möhkəmlik və digər xassələrin düzgün başa düşülməsi
+                    və tətbiqi təhlükəsiz, davamlı və iqtisadi cəhətdən səmərəli konstruksiyaların
+                    yaradılmasına imkan verir. Müasir texnologiyaların inkişafı ilə material
+                    elmində yeni imkanlar açılır və mühəndislər daha mürəkkəb və innovativ
+                    həllər yarada bilirlər.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>3. TERMODİNAMİKANIN ƏSAS QANUNLARI VƏ ENERJİ ÇEVRİLMƏLƏRİ MÜHƏNDİSLİK SİSTEMLƏRİNDƏ</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>3.1. TERMODİNAMİKAYA GİRİŞ</h2>
+            <p>
+                Termodinamika enerji, istilik və işin qarşılıqlı əlaqəsini öyrənən fizikanın sahəsidir.
+                Mühəndislik sistemlərində enerji çevrilmələrinin səmərəliliyini təyin edən fundamental
+                qanunları təqdim edir.
+            </p>
+
+            <div class="info-box">
+                <h3>Termodinamikanın Əsas Anlayışları</h3>
+                <ul>
+                    <li><strong>Sistem:</strong> Tədqiq olunan mühit və ya cisim</li>
+                    <li><strong>Ətraf mühit:</strong> Sistemin xaricindəki hər şey</li>
+                    <li><strong>Daxili enerji (U):</strong> Sistemin ümumi enerjisi</li>
+                    <li><strong>İstilik (Q):</strong> Temperatur fərqi ilə ötürülən enerji</li>
+                    <li><strong>İş (W):</strong> Mexaniki enerji ötürülməsi</li>
+                </ul>
+            </div>
+
+            <h3>3.1.1. Termodinamik Proseslər</h3>
+            <ul>
+                <li><strong>İzotermik:</strong> Sabit temperaturda (T = const)</li>
+                <li><strong>İzobarik:</strong> Sabit təzyiqdə (P = const)</li>
+                <li><strong>İzoxorik:</strong> Sabit həcmdə (V = const)</li>
+                <li><strong>Adiabatik:</strong> İstilik mübadiləsi olmadan (Q = 0)</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>3.2. BİRİNCİ TERMODİNAMİKA QANUNU</h2>
+
+            <h3>3.2.1. Enerji Saxlanması Qanunu</h3>
+            <p>
+                Birinci termodinamika qanunu enerjinin saxlanması prinsipinin termodinamik ifadəsidir:
+                enerji yaradıla və ya məhv edilə bilməz, yalnız bir formadan digərinə çevrilə bilər.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ΔU = Q - W</p>
+                <p class="formula-desc">
+                    ΔU - daxili enerjinin dəyişməsi (J)<br>
+                    Q - sistemə verilən istilik (J)<br>
+                    W - sistem tərəfindən görülən iş (J)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Piston-Silindr Sistemi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Sistemə verilən istilik: Q = 5000 J</li>
+                    <li>Pistonun hərəkəti ilə görülən iş: W = 2000 J</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Daxili enerji dəyişməsi: ΔU = Q - W = 5000 - 2000 = 3000 J</p>
+                <p><strong>Nəticə:</strong> Sistemin daxili enerjisi 3000 J artır.</p>
+            </div>
+
+            <h3>3.2.2. İdeal Qaz Qanunu</h3>
+            <div class="formula-box">
+                <p class="formula">PV = nRT</p>
+                <p class="formula-desc">
+                    P - təzyiq (Pa)<br>
+                    V - həcm (m³)<br>
+                    n - mol sayı<br>
+                    R - universal qaz sabiti (8.314 J/(mol·K))<br>
+                    T - temperatur (K)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Kompressor Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Başlanğıc həcmi: V₁ = 2 m³</li>
+                    <li>Başlanğıc təzyiqi: P₁ = 100 kPa</li>
+                    <li>Son həcm: V₂ = 0.5 m³</li>
+                    <li>Temperatur: T = 300 K (sabit)</li>
+                </ul>
+                <p><strong>Hesablama (izotermik proses):</strong></p>
+                <p>P₁V₁ = P₂V₂</p>
+                <p>P₂ = P₁V₁/V₂ = 100 × 2/0.5 = 400 kPa</p>
+                <p>Görülən iş: W = nRT ln(V₂/V₁) = P₁V₁ ln(V₂/V₁)</p>
+                <p>W = 100,000 × 2 × ln(0.5/2) = -277,259 J ≈ -277 kJ</p>
+                <p><strong>Nəticə:</strong> Kompressor 277 kJ iş görməlidir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>3.3. İKİNCİ TERMODİNAMİKA QANUNU</h2>
+
+            <h3>3.3.1. Entropiya Konsepsiyası</h3>
+            <p>
+                İkinci termodinamika qanunu enerji çevrilmələrinin istiqamətini müəyyən edir və
+                bütün real proseslərin qayıdılmaz olduğunu bildirir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ΔS ≥ Q/T</p>
+                <p class="formula-desc">
+                    S - entropiya (J/K)<br>
+                    Bərabərlik yalnız reversibel proseslər üçün keçərlidir
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h4>İkinci Qanunun Formulyasiyaları</h4>
+                <ul>
+                    <li><strong>Kelvin:</strong> İstiliyi tam olaraq işə çevirmək mümkün deyil</li>
+                    <li><strong>Klauzius:</strong> İstilik öz-özünə soyuqdan istiyə keçə bilməz</li>
+                    <li><strong>Entropiya:</strong> İzolə olunmuş sistemdə entropiya azalmır</li>
+                </ul>
+            </div>
+
+            <h3>3.3.2. İstilik Maşınları</h3>
+            <p>
+                İstilik maşınları istilik enerjisini mexaniki işə çevirən qurğulardır. Onların
+                səmərəliliyi ikinci termodinamika qanunu ilə məhdudlaşır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">η = W/Q<sub>H</sub> = 1 - Q<sub>C</sub>/Q<sub>H</sub></p>
+                <p class="formula-desc">
+                    η - səmərəlilik əmsalı<br>
+                    Q<sub>H</sub> - isti mənbədən alınan istilik<br>
+                    Q<sub>C</sub> - soyuq mənbəyə verilən istilik
+                </p>
+            </div>
+
+            <h4>Karno Tsikli - İdeal Səmərəlilik</h4>
+            <div class="formula-box">
+                <p class="formula">η<sub>Karno</sub> = 1 - T<sub>C</sub>/T<sub>H</sub></p>
+                <p class="formula-desc">
+                    T<sub>H</sub> - isti mənbə temperaturu (K)<br>
+                    T<sub>C</sub> - soyuq mənbə temperaturu (K)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Buxar Turbini</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Buxar temperaturu: T<sub>H</sub> = 500°C = 773 K</li>
+                    <li>Kondensator temperaturu: T<sub>C</sub> = 30°C = 303 K</li>
+                    <li>Alınan istilik: Q<sub>H</sub> = 1000 MJ</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Maksimum (Karno) səmərəlilik: η<sub>max</sub> = 1 - 303/773 = 0.608 = 60.8%</p>
+                <p>Real səmərəlilik (təxminən): η<sub>real</sub> ≈ 0.4 × η<sub>max</sub> = 24.3%</p>
+                <p>Faydalı iş: W = η<sub>real</sub> × Q<sub>H</sub> = 0.243 × 1000 = 243 MJ</p>
+                <p><strong>Nəticə:</strong> Real turbinin səmərəliliyi təxminən 24.3%-dir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>3.4. İSTİLİK MÜBADİLƏSİ</h2>
+
+            <h3>3.4.1. İstilik Ötürülməsi Mexanizmləri</h3>
+
+            <h4>a) Keçiricilik (Konduksiya)</h4>
+            <p>
+                İstilik enerjisinin maddə daxilində molekulların birbaşa təması ilə ötürülməsi.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">Q/t = kA(T₁ - T₂)/d</p>
+                <p class="formula-desc">
+                    k - istilik keçiriciliyi əmsalı (W/(m·K))<br>
+                    A - sahə (m²)<br>
+                    d - qalınlıq (m)<br>
+                    T₁ - T₂ - temperatur fərqi (K)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Divar İzolyasiyası</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Divar sahəsi: A = 20 m²</li>
+                    <li>İzolyasiya qalınlığı: d = 0.1 m</li>
+                    <li>İzolyasiyanın k əmsalı: k = 0.04 W/(m·K)</li>
+                    <li>Daxili temperatur: T₁ = 20°C</li>
+                    <li>Xarici temperatur: T₂ = -10°C</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>İstilik itkisi: Q/t = 0.04 × 20 × 30/0.1 = 240 W</p>
+                <p>Günlük enerji itkisi: E = 240 × 24 = 5760 Wh = 5.76 kWh</p>
+                <p><strong>Nəticə:</strong> Divar gündə 5.76 kWh enerji itirir.</p>
+            </div>
+
+            <h4>b) Konveksiya</h4>
+            <p>
+                İstilik enerjisinin maye və ya qazın hərəkəti ilə ötürülməsi.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">Q/t = hA(T<sub>s</sub> - T<sub>∞</sub>)</p>
+                <p class="formula-desc">
+                    h - konveksiya əmsalı (W/(m²·K))<br>
+                    T<sub>s</sub> - səth temperaturu<br>
+                    T<sub>∞</sub> - maye temperaturu
+                </p>
+            </div>
+
+            <h4>c) Radiasiya (Şüalanma)</h4>
+            <p>
+                İstilik enerjisinin elektromaqnit dalğaları vasitəsilə ötürülməsi.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">Q/t = εσAT⁴</p>
+                <p class="formula-desc">
+                    ε - emissiya əmsalı (0-1 arası)<br>
+                    σ - Stefan-Boltzmann sabiti (5.67 × 10⁻⁸ W/(m²·K⁴))<br>
+                    T - mütləq temperatur (K)
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>3.5. SOYUDUCU SİSTEMLƏR</h2>
+
+            <h3>3.5.1. Soyuducu Tsikli</h3>
+            <p>
+                Soyuducular istilik maşınlarının tərsinə işləyir - iş sərf edərək istiliyi
+                soyuq mənbədən isti mənbəyə ötürür.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">COP = Q<sub>C</sub>/W</p>
+                <p class="formula-desc">
+                    COP - performans əmsalı (Coefficient of Performance)<br>
+                    Q<sub>C</sub> - soyuq mənbədən alınan istilik<br>
+                    W - sərf olunan iş
+                </p>
+            </div>
+
+            <h3>3.5.2. Soyuducu Komponentləri</h3>
+            <ul>
+                <li><strong>Kompressor:</strong> Soyuducu agenti sıxır və təzyiq artırır</li>
+                <li><strong>Kondensator:</strong> İstiliyi ətraf mühitə verir</li>
+                <li><strong>Genişləndirici valf:</strong> Təzyiq və temperaturu azaldır</li>
+                <li><strong>Evaporator:</strong> İstiliyi soyudulan mühitdən alır</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Kondisioner Sistemi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Soyutma gücü: Q<sub>C</sub> = 3.5 kW</li>
+                    <li>Elektrik gücü: W = 1.2 kW</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>COP = Q<sub>C</sub>/W = 3.5/1.2 = 2.92</p>
+                <p>Kondensatorda ayrılan istilik: Q<sub>H</sub> = Q<sub>C</sub> + W = 3.5 + 1.2 = 4.7 kW</p>
+                <p><strong>Nəticə:</strong> Hər 1 kW elektrik enerjisi ilə 2.92 kW soyutma əldə edilir.</p>
+            </div>
+
+            <h3>3.5.3. İstilik Nasosları</h3>
+            <p>
+                İstilik nasosları soyuducularla eyni prinsiplə işləyir, lakin məqsəd qızdırmadır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">COP<sub>istilik</sub> = Q<sub>H</sub>/W = COP<sub>soyuducu</sub> + 1</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>3.6. MÜHƏRRİKLƏR VƏ GÜC SİSTEMLƏRİ</h2>
+
+            <h3>3.6.1. Daxili Yanma Mühərrikləri</h3>
+
+            <h4>Otto Tsikli (Benzin Mühərriki)</h4>
+            <p>
+                Otto tsikli dörd mərhələdən ibarətdir: sorma, sıxma, yanma və işləmə, xaric etmə.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">η<sub>Otto</sub> = 1 - 1/r<sup>γ-1</sup></p>
+                <p class="formula-desc">
+                    r - sıxılma nisbəti<br>
+                    γ - istilik tutumlarının nisbəti (hava üçün ≈ 1.4)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 6: Avtomobil Mühərriki</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Sıxılma nisbəti: r = 10</li>
+                    <li>γ = 1.4</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Teorik səmərəlilik: η = 1 - 1/10<sup>0.4</sup> = 1 - 1/2.512 = 0.602 = 60.2%</p>
+                <p>Real səmərəlilik: η<sub>real</sub> ≈ 25-30% (sürtünmə və digər itkilər)</p>
+                <p><strong>Nəticə:</strong> Real mühərrik səmərəliliyi teorik dəyərdən xeyli aşağıdır.</p>
+            </div>
+
+            <h4>Dizel Tsikli</h4>
+            <p>
+                Dizel mühərrikləri daha yüksək sıxılma nisbəti (15-22) istifadə edir və
+                daha yüksək səmərəliliyə malikdir (35-45%).
+            </p>
+
+            <h3>3.6.2. Qaz Turbinləri</h3>
+            <p>
+                Qaz turbinləri Brayton tsikli ilə işləyir və təyyarə mühərrikləri, elektrik
+                stansiyalarında istifadə olunur.
+            </p>
+
+            <h4>Brayton Tsikli Mərhələləri:</h4>
+            <ol>
+                <li>İzoentropik sıxılma (kompressor)</li>
+                <li>İzobarik istilik əlavəsi (yanma kamerası)</li>
+                <li>İzoentropik genişlənmə (turbina)</li>
+                <li>İzobarik istilik çıxarılması</li>
+            </ol>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 7: Elektrik Stansiyası Turbini</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Kompressor çıxış temperaturu: T₂ = 600 K</li>
+                    <li>Turbina giriş temperaturu: T₃ = 1400 K</li>
+                    <li>Ətraf temperatur: T₁ = 300 K</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Təxmini səmərəlilik: η ≈ (T₃ - T₂)/(T₃ - T₁) = (1400 - 600)/(1400 - 300) = 0.727 = 72.7%</p>
+                <p>Real səmərəlilik: η<sub>real</sub> ≈ 35-40%</p>
+                <p><strong>Nəticə:</strong> Müasir qaz turbinləri 35-40% səmərəliliyə çatır.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>3.7. ENERJİ SƏMƏRƏLİLİYİ VƏ OPTİMALLAŞDIRMA</h2>
+
+            <h3>3.7.1. Kombinə Tsikllər</h3>
+            <p>
+                Kombinə tsikl elektrik stansiyaları qaz turbini və buxar turbinini birləşdirərək
+                yüksək səmərəliliyə (60% və daha çox) nail olur.
+            </p>
+
+            <div class="info-box">
+                <h4>Kombinə Tsikl Üstünlükləri</h4>
+                <ul>
+                    <li>Yüksək səmərəlilik (55-60%)</li>
+                    <li>Tullantı istiliyinin istifadəsi</li>
+                    <li>Aşağı emissiyalar</li>
+                    <li>Çevik işləmə rejimi</li>
+                </ul>
+            </div>
+
+            <h3>3.7.2. Koqenerasiya (CHP)</h3>
+            <p>
+                Koqenerasiya sistemləri eyni vaxtda elektrik və istilik enerjisi istehsal edir,
+                ümumi səmərəliliyi 80-90%-ə çatdırır.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 8: Koqenerasiya Sistemi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Yanacaq enerjisi: E<sub>yanacaq</sub> = 100 MW</li>
+                    <li>Elektrik istehsalı: E<sub>elektrik</sub> = 35 MW</li>
+                    <li>İstilik istehsalı: E<sub>istilik</sub> = 50 MW</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Ümumi səmərəlilik: η = (E<sub>elektrik</sub> + E<sub>istilik</sub>)/E<sub>yanacaq</sub></p>
+                <p>η = (35 + 50)/100 = 0.85 = 85%</p>
+                <p><strong>Nəticə:</strong> Koqenerasiya sistemi 85% səmərəliliyə malikdir.</p>
+            </div>
+
+            <h3>3.7.3. Enerji Qənaəti Strategiyaları</h3>
+            <ul>
+                <li><strong>İzolyasiya:</strong> İstilik itkisinin azaldılması</li>
+                <li><strong>İstilik rekuperasiyası:</strong> Tullantı istiliyinin istifadəsi</li>
+                <li><strong>Yüksək səmərəli avadanlıq:</strong> Müasir texnologiyaların tətbiqi</li>
+                <li><strong>Proses optimallaşdırması:</strong> İşləmə parametrlərinin yaxşılaşdırılması</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>3.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+
+            <h3>3.8.1. Əsas Nəticələr</h3>
+            <p>
+                Termodinamika qanunları enerji sistemlərinin dizaynı və optimallaşdırılması üçün
+                fundamental əsasdır. Bu qanunlar enerji çevrilmələrinin limitlərini və imkanlarını
+                müəyyən edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Termodinamikanın Mühəndislik Tətbiqləri</h4>
+                <ul>
+                    <li>Güc stansiyaları və enerji istehsalı</li>
+                    <li>Soyuducu və kondisioner sistemləri</li>
+                    <li>Avtomobil və təyyarə mühərrikləri</li>
+                    <li>Sənaye prosesləri və istilik mübadiləsi</li>
+                    <li>Bina isitmə və ventilyasiya sistemləri</li>
+                </ul>
+            </div>
+
+            <h3>3.8.2. Müasir Texnologiyalar</h3>
+            <p>
+                Müasir termodinamik texnologiyalar enerji səmərəliliyini artırmağa yönəlmişdir:
+            </p>
+
+            <ul>
+                <li><strong>Superkritik buxar turbinləri:</strong> 45-50% səmərəlilik</li>
+                <li><strong>Kombinə tsikl stansiyaları:</strong> 60% və daha yüksək səmərəlilik</li>
+                <li><strong>İstilik nasosları:</strong> COP 3-5 arasında</li>
+                <li><strong>Mikrokoqenerasiya:</strong> Ev və kiçik bizneslər üçün</li>
+            </ul>
+
+            <h3>3.8.3. Gələcək İnkişaf İstiqamətləri</h3>
+            <div class="info-box">
+                <h4>İnnovativ Texnologiyalar</h4>
+                <ul>
+                    <li><strong>Termoelektrik generatorlar:</strong> Birbaşa istilik-elektrik çevrilməsi</li>
+                    <li><strong>Stirlinq mühərrikləri:</strong> Xarici yanma, yüksək səmərəlilik</li>
+                    <li><strong>Maqnit soyutma:</strong> Ənənəvi soyuduculardan daha səmərəli</li>
+                    <li><strong>Termal enerji saxlama:</strong> Bərpa olunan enerji inteqrasiyası</li>
+                </ul>
+            </div>
+
+            <h3>3.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Sistem təhlili:</strong> Bütün enerji axınlarını müəyyənləşdirin</li>
+                <li><strong>İtkilərin minimizasiyası:</strong> İstilik itkisini azaldın</li>
+                <li><strong>Tullantı istiliyinin istifadəsi:</strong> Rekuperasiya sistemləri tətbiq edin</li>
+                <li><strong>Optimal iş rejimi:</strong> Avadanlığı optimal parametrlərdə işlədin</li>
+                <li><strong>Monitorinq və optimallaşdırma:</strong> Davamlı performans izləməsi</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Termodinamika qanunları enerji mühəndisliyinin əsasını təşkil edir. Birinci qanun
+                    enerji balansını, ikinci qanun isə enerji keyfiyyətini və çevrilmə istiqamətini
+                    müəyyən edir. Bu qanunların düzgün başa düşülməsi və tətbiqi səmərəli, iqtisadi və
+                    ekoloji cəhətdən təmiz enerji sistemlərinin yaradılmasına imkan verir. Müasir
+                    texnologiyaların inkişafı ilə termodinamik səmərəlilik davamlı olaraq artır və
+                    yeni tətbiq sahələri açılır.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>4. ELEKTRİK DÖVRƏLƏRİ VƏ OHM QANUNUNUN PRAKTİK TƏTBİQLƏRİ</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>4.1. ELEKTRİK DÖVRƏLƏRİNƏ GİRİŞ</h2>
+            <p>
+                Elektrik dövrələri müasir texnologiyanın əsasını təşkil edir. Sadə elektrik lampasından
+                mürəkkəb kompüter sistemlərinə qədər bütün elektron qurğular elektrik dövrələri
+                prinsiplərinə əsaslanır.
+            </p>
+
+            <div class="info-box">
+                <h3>Əsas Elektrik Kəmiyyətləri</h3>
+                <ul>
+                    <li><strong>Gərginlik (V):</strong> Elektrik potensiallar fərqi, Volt (V)</li>
+                    <li><strong>Cərəyan (I):</strong> Yük daşıyıcılarının axını, Amper (A)</li>
+                    <li><strong>Müqavimət (R):</strong> Cərəyana müqavimət, Ohm (Ω)</li>
+                    <li><strong>Güc (P):</strong> Enerji sərfi sürəti, Vatt (W)</li>
+                    <li><strong>Tutum (C):</strong> Yük saxlama qabiliyyəti, Farad (F)</li>
+                    <li><strong>İnduktivlik (L):</strong> Maqnit sahəsi yaratma qabiliyyəti, Henri (H)</li>
+                </ul>
+            </div>
+
+            <h3>4.1.1. Elektrik Dövrəsinin Komponentləri</h3>
+            <ul>
+                <li><strong>Enerji mənbəyi:</strong> Batareya, generator, güc mənbəyi</li>
+                <li><strong>Yük:</strong> Rezistor, lampa, mühərrik</li>
+                <li><strong>Keçiricilər:</strong> Naqillər, kabellər</li>
+                <li><strong>Açar:</strong> Dövrəni açıb-bağlayan qurğu</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>4.2. OHM QANUNU</h2>
+
+            <h3>4.2.1. Qanunun Formalaşdırılması</h3>
+            <p>
+                Georg Ohm 1827-ci ildə kəşf etdiyi qanuna görə, keçiricidən keçən cərəyan ona tətbiq
+                olunan gərginliklə düz, müqavimətlə tərs mütənasibdir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">V = IR</p>
+                <p class="formula-desc">
+                    V - gərginlik (Volt, V)<br>
+                    I - cərəyan (Amper, A)<br>
+                    R - müqavimət (Ohm, Ω)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Sadə Dövrə Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Batareya gərginliyi: V = 12 V</li>
+                    <li>Lampa müqaviməti: R = 6 Ω</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Cərəyan: I = V/R = 12/6 = 2 A</p>
+                <p>Güc: P = VI = 12 × 2 = 24 W</p>
+                <p><strong>Nəticə:</strong> Lampadan 2 A cərəyan keçir və 24 W güc sərf edir.</p>
+            </div>
+
+            <h3>4.2.2. Müqavimətin Xassələri</h3>
+            <p>
+                Keçiricinin müqaviməti onun materialından, uzunluğundan və en kəsiyindən asılıdır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">R = ρL/A</p>
+                <p class="formula-desc">
+                    ρ - xüsusi müqavimət (Ω·m)<br>
+                    L - uzunluq (m)<br>
+                    A - en kəsik sahəsi (m²)
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h4>Müxtəlif Materialların Xüsusi Müqaviməti (20°C)</h4>
+                <ul>
+                    <li>Gümüş: ρ = 1.59 × 10⁻⁸ Ω·m</li>
+                    <li>Mis: ρ = 1.68 × 10⁻⁸ Ω·m</li>
+                    <li>Alüminium: ρ = 2.82 × 10⁻⁸ Ω·m</li>
+                    <li>Dəmir: ρ = 10 × 10⁻⁸ Ω·m</li>
+                    <li>Nikrom: ρ = 100 × 10⁻⁸ Ω·m</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Naqil Müqaviməti</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Mis naqil uzunluğu: L = 100 m</li>
+                    <li>Naqil diametri: d = 2 mm = 0.002 m</li>
+                    <li>Misin xüsusi müqaviməti: ρ = 1.68 × 10⁻⁸ Ω·m</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>En kəsik sahəsi: A = πd²/4 = π(0.002)²/4 = 3.14 × 10⁻⁶ m²</p>
+                <p>Müqavimət: R = ρL/A = (1.68 × 10⁻⁸ × 100)/(3.14 × 10⁻⁶) = 0.535 Ω</p>
+                <p><strong>Nəticə:</strong> 100 m mis naqilin müqaviməti 0.535 Ω-dur.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>4.3. ARDICIAL VƏ PARALEL BAĞLANTILAR</h2>
+
+            <h3>4.3.1. Ardıcıl Bağlantı</h3>
+            <p>
+                Ardıcıl bağlantıda komponentlər bir-birinin ardınca bağlanır və eyni cərəyan
+                hamısından keçir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">R<sub>ümumi</sub> = R₁ + R₂ + R₃ + ...</p>
+                <p class="formula">I<sub>ümumi</sub> = I₁ = I₂ = I₃</p>
+                <p class="formula">V<sub>ümumi</sub> = V₁ + V₂ + V₃ + ...</p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Ardıcıl Rezistorlar</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Mənbə gərginliyi: V = 24 V</li>
+                    <li>Rezistorlar: R₁ = 4 Ω, R₂ = 6 Ω, R₃ = 2 Ω</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Ümumi müqavimət: R<sub>ümumi</sub> = 4 + 6 + 2 = 12 Ω</p>
+                <p>Cərəyan: I = V/R = 24/12 = 2 A</p>
+                <p>Hər rezistorda gərginlik:</p>
+                <p>V₁ = IR₁ = 2 × 4 = 8 V</p>
+                <p>V₂ = IR₂ = 2 × 6 = 12 V</p>
+                <p>V₃ = IR₃ = 2 × 2 = 4 V</p>
+                <p><strong>Nəticə:</strong> Cərəyan 2 A, gərginliklər 8V, 12V və 4V-dur.</p>
+            </div>
+
+            <h3>4.3.2. Paralel Bağlantı</h3>
+            <p>
+                Paralel bağlantıda komponentlər eyni nöqtələr arasında bağlanır və eyni gərginlik
+                hamısına tətbiq olunur.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">1/R<sub>ümumi</sub> = 1/R₁ + 1/R₂ + 1/R₃ + ...</p>
+                <p class="formula">V<sub>ümumi</sub> = V₁ = V₂ = V₃</p>
+                <p class="formula">I<sub>ümumi</sub> = I₁ + I₂ + I₃ + ...</p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Paralel Rezistorlar</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Mənbə gərginliyi: V = 12 V</li>
+                    <li>Rezistorlar: R₁ = 6 Ω, R₂ = 3 Ω, R₃ = 2 Ω</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>1/R<sub>ümumi</sub> = 1/6 + 1/3 + 1/2 = 1/6 + 2/6 + 3/6 = 6/6 = 1</p>
+                <p>R<sub>ümumi</sub> = 1 Ω</p>
+                <p>Ümumi cərəyan: I = V/R = 12/1 = 12 A</p>
+                <p>Hər rezistordan cərəyan:</p>
+                <p>I₁ = V/R₁ = 12/6 = 2 A</p>
+                <p>I₂ = V/R₂ = 12/3 = 4 A</p>
+                <p>I₃ = V/R₃ = 12/2 = 6 A</p>
+                <p><strong>Nəticə:</strong> Ümumi cərəyan 12 A, şaxələrdə 2A, 4A və 6A.</p>
+            </div>
+
+            <h3>4.3.3. Qarışıq Bağlantılar</h3>
+            <p>
+                Real dövrələrdə adətən ardıcıl və paralel bağlantıların kombinasiyası istifadə olunur.
+            </p>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>4.4. KİRXHOF QANUNLARI</h2>
+
+            <h3>4.4.1. Birinci Kirxhof Qanunu (Cərəyan Qanunu)</h3>
+            <p>
+                Dövrənin istənilən qovşağında daxil olan cərəyanların cəmi xaric olan cərəyanların
+                cəminə bərabərdir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ΣI<sub>daxil</sub> = ΣI<sub>xaric</sub></p>
+                <p class="formula-desc">
+                    Bu qanun yük saxlanması prinsipinin nəticəsidir
+                </p>
+            </div>
+
+            <h3>4.4.2. İkinci Kirxhof Qanunu (Gərginlik Qanunu)</h3>
+            <p>
+                İstənilən qapalı konturda gərginliklərin cəbri cəmi sıfıra bərabərdir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ΣV = 0</p>
+                <p class="formula-desc">
+                    Bu qanun enerji saxlanması prinsipinin nəticəsidir
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Mürəkkəb Dövrə Təhlili</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>İki batareya: V₁ = 12 V, V₂ = 6 V</li>
+                    <li>Üç rezistor: R₁ = 2 Ω, R₂ = 3 Ω, R₃ = 4 Ω</li>
+                </ul>
+                <p><strong>Kirxhof qanunları ilə həll:</strong></p>
+                <p>Qovşaq qanunu: I₁ = I₂ + I₃</p>
+                <p>Kontur 1: V₁ - I₁R₁ - I₂R₂ = 0</p>
+                <p>Kontur 2: V₂ - I₃R₃ + I₂R₂ = 0</p>
+                <p><strong>Nəticə:</strong> Tənliklər sistemi həll edilərək cərəyanlar tapılır.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>4.5. ELEKTRİK GÜCÜ VƏ ENERJİ</h2>
+
+            <h3>4.5.1. Elektrik Gücü</h3>
+            <p>
+                Elektrik gücü vahid zamanda sərf olunan elektrik enerjisidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">P = VI = I²R = V²/R</p>
+                <p class="formula-desc">
+                    P - güc (Vatt, W)<br>
+                    Bu formullar Ohm qanunundan törənir
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 6: Ev Elektrik Cihazları</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Şəbəkə gərginliyi: V = 220 V</li>
+                    <li>Elektrik sobası gücü: P = 2000 W</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Cərəyan: I = P/V = 2000/220 = 9.09 A</p>
+                <p>Müqavimət: R = V²/P = 220²/2000 = 24.2 Ω</p>
+                <p>Günlük enerji (4 saat işləmə): E = Pt = 2 × 4 = 8 kWh</p>
+                <p><strong>Nəticə:</strong> Soba 9.09 A cərəyan çəkir və gündə 8 kWh enerji sərf edir.</p>
+            </div>
+
+            <h3>4.5.2. Enerji İtkisi və Səmərəlilik</h3>
+            <p>
+                Elektrik enerjisinin ötürülməsi zamanı naqillərdə istilik şəklində itki baş verir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">P<sub>itki</sub> = I²R<sub>naqil</sub></p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 7: Enerji Ötürülməsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Ötürülən güc: P = 100 kW</li>
+                    <li>Gərginlik: V = 10,000 V (yüksək gərginlik)</li>
+                    <li>Xətt müqaviməti: R = 5 Ω</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Cərəyan: I = P/V = 100,000/10,000 = 10 A</p>
+                <p>İtki: P<sub>itki</sub> = I²R = 10² × 5 = 500 W</p>
+                <p>Səmərəlilik: η = (P - P<sub>itki</sub>)/P = 99,500/100,000 = 99.5%</p>
+                <p><strong>Nəticə:</strong> Yüksək gərginlikdə enerji itkisi çox azdır (0.5%).</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>4.6. DƏYIŞƏN CƏRƏYAN (AC) DÖVRƏLƏRİ</h2>
+
+            <h3>4.6.1. AC və DC Fərqi</h3>
+            <p>
+                Dəyişən cərəyan (AC) istiqamətini və böyüklüyünü dəyişir, sabit cərəyan (DC) isə
+                daimi istiqamətdə axır.
+            </p>
+
+            <div class="info-box">
+                <h4>AC Cərəyanın Xarakteristikaları</h4>
+                <ul>
+                    <li><strong>Tezlik:</strong> Saniyədə tsikl sayı (Hz)</li>
+                    <li><strong>Amplituda:</strong> Maksimum dəyər</li>
+                    <li><strong>Effektiv dəyər:</strong> V<sub>rms</sub> = V<sub>max</sub>/√2</li>
+                    <li><strong>Faza:</strong> Dalğanın başlanğıc vəziyyəti</li>
+                </ul>
+            </div>
+
+            <h3>4.6.2. AC Dövrələrində Komponentlər</h3>
+
+            <h4>a) Rezistor</h4>
+            <p>
+                AC dövrədə rezistor DC-dəki kimi davranır, gərginlik və cərəyan eyni fazadadır.
+            </p>
+
+            <h4>b) Kondensator</h4>
+            <p>
+                Kondensator AC-yə keçirir, lakin cərəyan gərginlikdən 90° qabaqda olur.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">X<sub>C</sub> = 1/(2πfC)</p>
+                <p class="formula-desc">
+                    X<sub>C</sub> - tutum müqaviməti (Ohm)<br>
+                    f - tezlik (Hz)<br>
+                    C - tutum (Farad)
+                </p>
+            </div>
+
+            <h4>c) İnduktor</h4>
+            <p>
+                İnduktor AC-yə müqavimət göstərir, cərəyan gərginlikdən 90° geridə qalır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">X<sub>L</sub> = 2πfL</p>
+                <p class="formula-desc">
+                    X<sub>L</sub> - induktiv müqavimət (Ohm)<br>
+                    L - induktivlik (Henri)
+                </p>
+            </div>
+
+            <h3>4.6.3. İmpedans və Güc Əmsalı</h3>
+            <div class="formula-box">
+                <p class="formula">Z = √(R² + (X<sub>L</sub> - X<sub>C</sub>)²)</p>
+                <p class="formula">cos φ = R/Z</p>
+                <p class="formula-desc">
+                    Z - impedans (Ohm)<br>
+                    cos φ - güc əmsalı
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 8: AC Dövrə</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Gərginlik: V = 220 V (rms), f = 50 Hz</li>
+                    <li>R = 30 Ω, L = 0.1 H, C = 100 μF</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>X<sub>L</sub> = 2π × 50 × 0.1 = 31.4 Ω</p>
+                <p>X<sub>C</sub> = 1/(2π × 50 × 100 × 10⁻⁶) = 31.8 Ω</p>
+                <p>Z = √(30² + (31.4 - 31.8)²) = √(900 + 0.16) = 30.0 Ω</p>
+                <p>I = V/Z = 220/30 = 7.33 A</p>
+                <p>Güc əmsalı: cos φ = 30/30 ≈ 1 (rezonans yaxınlığı)</p>
+                <p><strong>Nəticə:</strong> Dövrə rezonans yaxınlığında işləyir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>4.7. PRAKTİK TƏTBİQLƏR</h2>
+
+            <h3>4.7.1. Ev Elektrik Sistemləri</h3>
+            <p>
+                Ev elektrik sistemləri paralel bağlantı prinsipinə əsaslanır ki, hər cihaz
+                müstəqil işləyə bilsin.
+            </p>
+
+            <div class="info-box">
+                <h4>Ev Elektrik Təhlükəsizliyi</h4>
+                <ul>
+                    <li><strong>Qoruyucu avtomatlar:</strong> Həddən artıq cərəyandan qoruyur</li>
+                    <li><strong>Torpaq bağlantısı:</strong> Elektrik zərbəsindən qoruyur</li>
+                    <li><strong>RCD (Qalıq cərəyan cihazı):</strong> Cərəyan sızmasını aşkar edir</li>
+                    <li><strong>Düzgün naqil seçimi:</strong> Yük gücünə uyğun</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 9: Ev Dövrəsi Dizaynı</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Otaq cihazları: 5 × 100W lampa, 1 × 2000W kondisioner</li>
+                    <li>Şəbəkə gərginliyi: 220 V</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Ümumi güc: P = 5 × 100 + 2000 = 2500 W</p>
+                <p>Cərəyan: I = P/V = 2500/220 = 11.4 A</p>
+                <p>Təhlükəsizlik əmsalı ilə: I<sub>avtomat</sub> = 1.25 × 11.4 = 14.2 A</p>
+                <p>Seçim: 16 A avtomat</p>
+                <p><strong>Nəticə:</strong> 16 A avtomat və 2.5 mm² naqil tövsiyə olunur.</p>
+            </div>
+
+            <h3>4.7.2. Sənaye Elektrik Sistemləri</h3>
+            <p>
+                Sənaye sistemlərində üç fazalı AC sistemlər istifadə olunur ki, daha yüksək
+                güc ötürülməsi mümkün olsun.
+            </p>
+
+            <h4>Üç Fazalı Sistemin Üstünlükləri:</h4>
+            <ul>
+                <li>Daha yüksək güc ötürülməsi</li>
+                <li>Daha səmərəli mühərriklər</li>
+                <li>Daha sabit güc təchizatı</li>
+                <li>Daha az naqil istifadəsi</li>
+            </ul>
+
+            <h3>4.7.3. Elektron Qurğular</h3>
+            <p>
+                Müasir elektron qurğular mürəkkəb dövrələrdən ibarətdir: mikroproçessorlar,
+                yaddaş çipləri, sensor sistemləri.
+            </p>
+
+            <div class="info-box">
+                <h4>Elektron Dövrə Komponentləri</h4>
+                <ul>
+                    <li><strong>Diodlar:</strong> Cərəyanı bir istiqamətdə buraxır</li>
+                    <li><strong>Tranzistorlar:</strong> Gücləndiricilər və açarlar</li>
+                    <li><strong>İnteqral sxemlər:</strong> Minlərlə komponent bir çipdə</li>
+                    <li><strong>Mikrocontrollerlər:</strong> Proqramlaşdırılan idarəetmə</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>4.8. NƏTİCƏ VƏ MÜHƏNDİSLİK TƏTBİQLƏRİ</h2>
+
+            <h3>4.8.1. Əsas Nəticələr</h3>
+            <p>
+                Elektrik dövrələri və Ohm qanunu elektrik mühəndisliyinin əsasını təşkil edir.
+                Bu prinsiplərin düzgün başa düşülməsi təhlükəsiz və səmərəli elektrik sistemlərinin
+                dizaynı üçün zəruridir.
+            </p>
+
+            <div class="info-box">
+                <h4>Elektrik Mühəndisliyində Əsas Prinsiplər</h4>
+                <ul>
+                    <li>Ohm qanunu və Kirxhof qanunlarının tətbiqi</li>
+                    <li>Güc hesablamaları və enerji səmərəliliyi</li>
+                    <li>Təhlükəsizlik tələbləri və standartlar</li>
+                    <li>Düzgün komponent seçimi</li>
+                    <li>Dövrə təhlili və optimallaşdırma</li>
+                </ul>
+            </div>
+
+            <h3>4.8.2. Müasir Texnologiyalar</h3>
+            <ul>
+                <li><strong>Ağıllı şəbəkələr:</strong> İnternetə qoşulmuş elektrik şəbəkələri</li>
+                <li><strong>Güc elektronikası:</strong> Yüksək səmərəliliklə enerji çevrilməsi</li>
+                <li><strong>Bərpa olunan enerji inteqrasiyası:</strong> Günəş və külək enerjisi</li>
+                <li><strong>Elektrik nəqliyyatı:</strong> Elektromobillər və şarj stansiyaları</li>
+            </ul>
+
+            <h3>4.8.3. Gələcək Perspektivləri</h3>
+            <div class="info-box">
+                <h4>İnnovativ Texnologiyalar</h4>
+                <ul>
+                    <li><strong>Superkondensatorlar:</strong> Yüksək güclü enerji saxlama</li>
+                    <li><strong>Simsiz enerji ötürülməsi:</strong> İnduktiv və rezonans üsulları</li>
+                    <li><strong>Kvant hesablama:</strong> Yeni elektron komponentlər</li>
+                    <li><strong>Nanoelektronika:</strong> Atom səviyyəsində dövrələr</li>
+                </ul>
+            </div>
+
+            <h3>4.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Təhlükəsizlik:</strong> Həmişə təhlükəsizlik qaydalarına riayət edin</li>
+                <li><strong>Hesablamalar:</strong> Bütün parametrləri dəqiq hesablayın</li>
+                <li><strong>Komponent seçimi:</strong> Keyfiyyətli və etibarlı komponentlər seçin</li>
+                <li><strong>Test və yoxlama:</strong> Dövrələri işə salmadan test edin</li>
+                <li><strong>Sənədləşmə:</strong> Bütün dövrə sxemlərini sənədləşdirin</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Elektrik dövrələri müasir texnologiyanın əsasıdır. Ohm qanunu və Kirxhof
+                    qanunları sadə dövrələrdən mürəkkəb elektron sistemlərə qədər bütün elektrik
+                    qurğularının təhlili üçün fundamental vasitələrdir. Bu prinsiplərin dərin
+                    başa düşülməsi və düzgün tətbiqi təhlükəsiz, səmərəli və etibarlı elektrik
+                    sistemlərinin yaradılmasına imkan verir. Müasir texnologiyaların inkişafı ilə
+                    elektrik mühəndisliyində yeni imkanlar və tətbiq sahələri açılır.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>5. MAQNİT SAHƏSİNİN TEXNOLOJİ QURGULARDA ROLU</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>5.1. MAQNİT SAHƏSİNƏ GİRİŞ</h2>
+            <p>
+                Maqnit sahəsi elektrik mühəndisliyinin fundamental konsepsiyalarından biridir və
+                müasir texnologiyanın əsasını təşkil edir. Elektrik mühərrikləri, generatorlar,
+                transformatorlar və bir çox digər qurğular maqnit sahəsinin xassələrindən istifadə edir.
+            </p>
+
+            <div class="info-box">
+                <h3>Maqnit Sahəsinin Əsas Xassələri</h3>
+                <ul>
+                    <li><strong>Maqnit sahəsi (B):</strong> Tesla (T) ilə ölçülür</li>
+                    <li><strong>Maqnit axını (Φ):</strong> Weber (Wb) ilə ölçülür</li>
+                    <li><strong>Maqnit sahəsi xətləri:</strong> Şimal qütbündən cənub qütbünə</li>
+                    <li><strong>Ferromaqnit materiallar:</strong> Dəmir, nikel, kobalt</li>
+                </ul>
+            </div>
+
+            <h3>5.1.1. Maqnit Sahəsinin Mənbələri</h3>
+            <ul>
+                <li><strong>Daimi maqnitlər:</strong> Neodim, ferrit maqnitləri</li>
+                <li><strong>Elektromaqnitlər:</strong> Cərəyan keçən sarğaclar</li>
+                <li><strong>Yer maqnit sahəsi:</strong> Təxminən 50 μT</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>5.2. ELEKTROMAQNİTLƏR</h2>
+
+            <h3>5.2.1. Elektromaqnitin İşləmə Prinsipi</h3>
+            <p>
+                Elektromaqnit sarğacdan keçən elektrik cərəyanı vasitəsilə maqnit sahəsi yaradan qurğudur.
+                Cərəyan kəsildikdə maqnit sahəsi də yox olur.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">B = μ₀nI</p>
+                <p class="formula-desc">
+                    B - maqnit sahəsi (Tesla)<br>
+                    μ₀ - vakuumun maqnit keçiriciliyi (4π × 10⁻⁷ T·m/A)<br>
+                    n - vahid uzunluğa düşən sarğı sayı (1/m)<br>
+                    I - cərəyan (Amper)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Solenoid Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Solenoid uzunluğu: L = 0.5 m</li>
+                    <li>Sarğı sayı: N = 1000</li>
+                    <li>Cərəyan: I = 2 A</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Vahid uzunluğa sarğı: n = N/L = 1000/0.5 = 2000 sarğı/m</p>
+                <p>Maqnit sahəsi: B = μ₀nI = 4π × 10⁻⁷ × 2000 × 2</p>
+                <p>B = 5.03 × 10⁻³ T = 5.03 mT</p>
+                <p><strong>Nəticə:</strong> Solenoid daxilində 5.03 mT maqnit sahəsi yaranır.</p>
+            </div>
+
+            <h3>5.2.2. Elektromaqnit Tətbiqləri</h3>
+            <ul>
+                <li><strong>Qaldırıcı maqnitlər:</strong> Metal hissələrin daşınması</li>
+                <li><strong>Elektromaqnit klapanlar:</strong> Maye və qaz axınının idarə edilməsi</li>
+                <li><strong>Relaylər:</strong> Elektrik dövrələrinin idarə edilməsi</li>
+                <li><strong>Zənglər və sirenalar:</strong> Səs siqnalları</li>
+                <li><strong>MRI cihazları:</strong> Tibbi görüntüləmə</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>5.3. ELEKTRİK MÜHƏRRİKLƏRİ</h2>
+
+            <h3>5.3.1. DC Mühərrikləri</h3>
+            <p>
+                DC mühərrikləri sabit cərəyan ilə işləyir və maqnit sahəsində cərəyan keçən keçiriciyə
+                təsir edən Lorents qüvvəsindən istifadə edir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">F = BIL sin θ</p>
+                <p class="formula-desc">
+                    F - qüvvə (Nyuton)<br>
+                    B - maqnit sahəsi (Tesla)<br>
+                    I - cərəyan (Amper)<br>
+                    L - keçiricinin uzunluğu (m)<br>
+                    θ - bucaq (90° üçün maksimum)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: DC Mühərrik Qüvvəsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Maqnit sahəsi: B = 0.5 T</li>
+                    <li>Cərəyan: I = 10 A</li>
+                    <li>Keçirici uzunluğu: L = 0.2 m</li>
+                    <li>Sarğı sayı: N = 50</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Bir keçiriciyə qüvvə: F₁ = BIL = 0.5 × 10 × 0.2 = 1 N</p>
+                <p>Ümumi qüvvə: F = N × F₁ = 50 × 1 = 50 N</p>
+                <p>Moment (radius r = 0.05 m): τ = Fr = 50 × 0.05 = 2.5 N·m</p>
+                <p><strong>Nəticə:</strong> Mühərrik 2.5 N·m moment yaradır.</p>
+            </div>
+
+            <h3>5.3.2. AC Mühərrikləri</h3>
+            <p>
+                AC mühərrikləri dəyişən cərəyan ilə işləyir və fırlanan maqnit sahəsi yaradır.
+                Sənayedə ən çox istifadə olunan mühərrik növüdür.
+            </p>
+
+            <h4>Üç Fazalı Asinxron Mühərrik</h4>
+            <ul>
+                <li>Sadə konstruksiya, etibarlı</li>
+                <li>Aşağı qiymət və texniki xidmət</li>
+                <li>Yüksək səmərəlilik (85-95%)</li>
+                <li>Geniş güc diapazonu (0.1 kW - 10 MW)</li>
+            </ul>
+
+            <div class="formula-box">
+                <p class="formula">n<sub>s</sub> = 120f/p</p>
+                <p class="formula-desc">
+                    n<sub>s</sub> - sinxron sürət (RPM)<br>
+                    f - tezlik (Hz)<br>
+                    p - qütb cütlərinin sayı
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Asinxron Mühərrik</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Tezlik: f = 50 Hz</li>
+                    <li>Qütb cütləri: p = 2</li>
+                    <li>Sürüşmə: s = 3%</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Sinxron sürət: n<sub>s</sub> = 120 × 50/2 = 3000 RPM</p>
+                <p>Rotor sürəti: n = n<sub>s</sub>(1 - s) = 3000 × 0.97 = 2910 RPM</p>
+                <p><strong>Nəticə:</strong> Mühərrik 2910 RPM sürətlə fırlanır.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>5.4. GENERATORLAR</h2>
+
+            <h3>5.4.1. Elektromaqnit İnduksiya</h3>
+            <p>
+                Faraday qanununa görə, maqnit axınının dəyişməsi keçiricidə elektrik hərəkət qüvvəsi (EMQ) induksiya
+                edir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">ε = -N(dΦ/dt)</p>
+                <p class="formula-desc">
+                    ε - induksiya EMQ (Volt)<br>
+                    N - sarğı sayı<br>
+                    dΦ/dt - maqnit axınının dəyişmə sürəti (Wb/s)
+                </p>
+            </div>
+
+            <h3>5.4.2. AC Generator (Alternator)</h3>
+            <p>
+                AC generatorlar mexaniki enerjini elektrik enerjisinə çevirir. Elektrik stansiyalarında
+                istifadə olunan əsas qurğudur.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Generator Gücü</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Sarğı sayı: N = 200</li>
+                    <li>Maqnit sahəsi: B = 0.8 T</li>
+                    <li>Sarğı sahəsi: A = 0.05 m²</li>
+                    <li>Fırlanma tezliyi: f = 50 Hz</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Maksimum maqnit axını: Φ<sub>max</sub> = BA = 0.8 × 0.05 = 0.04 Wb</p>
+                <p>Bucaq tezliyi: ω = 2πf = 2π × 50 = 314.16 rad/s</p>
+                <p>Maksimum EMQ: ε<sub>max</sub> = NωΦ<sub>max</sub> = 200 × 314.16 × 0.04 = 2513 V</p>
+                <p>Effektiv gərginlik: V<sub>rms</sub> = ε<sub>max</sub>/√2 = 1777 V</p>
+                <p><strong>Nəticə:</strong> Generator 1777 V effektiv gərginlik yaradır.</p>
+            </div>
+
+            <h3>5.4.3. Elektrik Stansiyalarında Generatorlar</h3>
+            <ul>
+                <li><strong>Hidroelektrik:</strong> Su turbini ilə işləyir</li>
+                <li><strong>Termal:</strong> Buxar turbini ilə işləyir</li>
+                <li><strong>Külək:</strong> Külək turbini ilə işləyir</li>
+                <li><strong>Nüvə:</strong> Buxar turbini (nüvə istiliyindən)</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>5.5. TRANSFORMATORLAR</h2>
+
+            <h3>5.5.1. Transformatorun İşləmə Prinsipi</h3>
+            <p>
+                Transformator qarşılıqlı induksiya prinsipinə əsaslanır və AC gərginliyini artırır və ya azaldır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">V<sub>2</sub>/V<sub>1</sub> = N<sub>2</sub>/N<sub>1</sub> =
+                    I<sub>1</sub>/I<sub>2</sub></p>
+                <p class="formula-desc">
+                    V₁, V₂ - birincili və ikincili gərginliklər<br>
+                    N₁, N₂ - birincili və ikincili sarğı sayları<br>
+                    I₁, I₂ - birincili və ikincili cərəyanlar
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Transformator Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Birincili gərginlik: V₁ = 10,000 V</li>
+                    <li>İkincili gərginlik: V₂ = 220 V</li>
+                    <li>Birincili sarğı: N₁ = 5000</li>
+                    <li>Yük gücü: P = 10 kW</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Çevirmə əmsalı: k = V₂/V₁ = 220/10,000 = 0.022</p>
+                <p>İkincili sarğı: N₂ = kN₁ = 0.022 × 5000 = 110 sarğı</p>
+                <p>İkincili cərəyan: I₂ = P/V₂ = 10,000/220 = 45.45 A</p>
+                <p>Birincili cərəyan: I₁ = I₂/k = 45.45 × 0.022 = 1 A</p>
+                <p><strong>Nəticə:</strong> Transformator 10 kV-u 220 V-a çevirir.</p>
+            </div>
+
+            <h3>5.5.2. Transformator Növləri</h3>
+            <ul>
+                <li><strong>Güc transformatorları:</strong> Elektrik stansiyalarında</li>
+                <li><strong>Paylayıcı transformatorlar:</strong> Şəbəkələrdə</li>
+                <li><strong>İzolyasiya transformatorları:</strong> Təhlükəsizlik üçün</li>
+                <li><strong>Avtotransformatorlar:</strong> Tək sarğılı</li>
+                <li><strong>Ölçü transformatorları:</strong> Cərəyan və gərginlik ölçməsi</li>
+            </ul>
+
+            <h3>5.5.3. Transformator İtkisi və Səmərəlilik</h3>
+            <div class="info-box">
+                <h4>Transformatorda İtkilər</h4>
+                <ul>
+                    <li><strong>Mis itkisi:</strong> Sarğılarda I²R itkisi</li>
+                    <li><strong>Dəmir itkisi:</strong> Nüvədə histerezis və burulğan cərəyanları</li>
+                    <li><strong>Səpələnmə itkisi:</strong> Maqnit axınının səpələnməsi</li>
+                </ul>
+            </div>
+
+            <div class="formula-box">
+                <p class="formula">η = P<sub>out</sub>/P<sub>in</sub> = P<sub>out</sub>/(P<sub>out</sub> +
+                    P<sub>losses</sub>)</p>
+                <p class="formula-desc">
+                    Müasir transformatorların səmərəliliyi: 95-99%
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>5.6. MÜASİR TƏTBİQLƏR</h2>
+
+            <h3>5.6.1. MRI (Maqnit Rezonans Görüntüləmə)</h3>
+            <p>
+                MRI tibbi diaqnostikada istifadə olunan güclü maqnit sahəsi əsaslı görüntüləmə texnologiyasıdır.
+            </p>
+
+            <div class="info-box">
+                <h4>MRI Xüsusiyyətləri</h4>
+                <ul>
+                    <li>Maqnit sahəsi: 1.5-3 Tesla (Yer sahəsindən 30,000-60,000 dəfə güclü)</li>
+                    <li>Superkəçirici maqnitlər istifadə olunur</li>
+                    <li>Yumşaq toxumaların yüksək keyfiyyətli görüntüsü</li>
+                    <li>Radioaktiv şüalanma yoxdur</li>
+                </ul>
+            </div>
+
+            <h3>5.6.2. Maqlev (Maqnit Levitasiya) Qatarları</h3>
+            <p>
+                Maqlev qatarları maqnit qüvvələri vasitəsilə havada asılı vəziyyətdə hərəkət edir və
+                çox yüksək sürətlərə (400+ km/saat) çata bilir.
+            </p>
+
+            <h4>Üstünlükləri:</h4>
+            <ul>
+                <li>Çox yüksək sürət (600 km/saat-a qədər)</li>
+                <li>Aşağı səs-küy səviyyəsi</li>
+                <li>Mexaniki aşınma yoxdur</li>
+                <li>Enerji səmərəliliyi</li>
+            </ul>
+
+            <h3>5.6.3. İnduktiv Şarj</h3>
+            <p>
+                Simsiz enerji ötürülməsi texnologiyası elektromaqnit induksiya prinsipinə əsaslanır.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 6: İnduktiv Şarj Səmərəliliyi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Ötürücü güc: P<sub>tx</sub> = 15 W</li>
+                    <li>Qəbuledici güc: P<sub>rx</sub> = 12 W</li>
+                    <li>Məsafə: d = 5 mm</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Səmərəlilik: η = P<sub>rx</sub>/P<sub>tx</sub> = 12/15 = 0.8 = 80%</p>
+                <p>İtki: P<sub>loss</sub> = P<sub>tx</sub> - P<sub>rx</sub> = 15 - 12 = 3 W</p>
+                <p><strong>Nəticə:</strong> Simsiz şarj 80% səmərəliliyə malikdir.</p>
+            </div>
+
+            <h3>5.6.4. Elektromaqnit Əyləclər</h3>
+            <p>
+                Elektromaqnit əyləclər burulğan cərəyanları vasitəsilə əyləc qüvvəsi yaradır və
+                yüksək sürətli qatarlarda istifadə olunur.
+            </p>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>5.7. MAQNİT MATERİALLARI</h2>
+
+            <h3>5.7.1. Ferromaqnit Materiallar</h3>
+            <p>
+                Ferromaqnit materiallar güclü maqnit xassələrinə malikdir və daimi maqnitlər və
+                elektromaqnitlərdə istifadə olunur.
+            </p>
+
+            <div class="info-box">
+                <h4>Əsas Ferromaqnit Materiallar</h4>
+                <ul>
+                    <li><strong>Dəmir:</strong> Yüksək doyma, ucuz</li>
+                    <li><strong>Nikel:</strong> Korroziyaya davamlı</li>
+                    <li><strong>Kobalt:</strong> Yüksək temperatur davamlılığı</li>
+                    <li><strong>Neodim maqnitləri:</strong> Ən güclü daimi maqnitlər</li>
+                    <li><strong>Ferrit:</strong> Yüksək tezlikli tətbiqlər</li>
+                </ul>
+            </div>
+
+            <h3>5.7.2. Maqnit Histerezisi</h3>
+            <p>
+                Histerezis ferromaqnit materialın maqnitlənmə tarixindən asılılığını göstərir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">W = ∮H·dB</p>
+                <p class="formula-desc">
+                    W - histerezis itkisi (J/m³)<br>
+                    Histerezis əyrisinin sahəsi ilə müəyyən edilir
+                </p>
+            </div>
+
+            <h3>5.7.3. Yumşaq və Sərt Maqnit Materiallar</h3>
+            <ul>
+                <li><strong>Yumşaq:</strong> Asanlıqla maqnitlənir və demaqnitlənir (transformator nüvələri)</li>
+                <li><strong>Sərt:</strong> Daimi maqnitlənmə saxlayır (daimi maqnitlər)</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>5.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+
+            <h3>5.8.1. Əsas Nəticələr</h3>
+            <p>
+                Maqnit sahəsi müasir texnologiyanın əsas komponentlərindən biridir. Elektromaqnit
+                induksiya prinsipi enerji istehsalı və ötürülməsinin əsasını təşkil edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Maqnit Texnologiyalarının Tətbiq Sahələri</h4>
+                <ul>
+                    <li>Elektrik enerjisinin istehsalı və paylama</li>
+                    <li>Elektrik mühərrikləri və nəqliyyat</li>
+                    <li>Tibbi diaqnostika və müalicə</li>
+                    <li>Məlumat saxlama (hard disklər, maqnit lentlər)</li>
+                    <li>Sənaye avtomatlaşdırması</li>
+                </ul>
+            </div>
+
+            <h3>5.8.2. Müasir İnkişaf İstiqamətləri</h3>
+            <ul>
+                <li><strong>Superkəçiricilər:</strong> İtkilərsiz maqnit sahələri</li>
+                <li><strong>Yüksək temperaturlu maqnitlər:</strong> Elektromobillər üçün</li>
+                <li><strong>Nadir torpaq elementləri:</strong> Daha güclü maqnitlər</li>
+                <li><strong>Maqnit nanohissəciklər:</strong> Tibb və elektronikada</li>
+            </ul>
+
+            <h3>5.8.3. Gələcək Texnologiyalar</h3>
+            <div class="info-box">
+                <h4>İnnovativ Tətbiqlər</h4>
+                <ul>
+                    <li><strong>Kvant hesablama:</strong> Maqnit qubitleri</li>
+                    <li><strong>Termonüvə reaktorları:</strong> Plazma məhdudlaşdırması</li>
+                    <li><strong>Kosmik texnologiya:</strong> Maqnit qalxanlar</li>
+                    <li><strong>Enerji saxlama:</strong> Superkəçirici maqnit enerji saxlama (SMES)</li>
+                </ul>
+            </div>
+
+            <h3>5.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Material seçimi:</strong> Tətbiqə uyğun maqnit material seçin</li>
+                <li><strong>Səmərəlilik:</strong> İtkini minimuma endirin</li>
+                <li><strong>Soyutma:</strong> Yüksək güclü qurğularda soyutma nəzərə alın</li>
+                <li><strong>Təhlükəsizlik:</strong> Güclü maqnit sahələri təhlükəli ola bilər</li>
+                <li><strong>Texniki xidmət:</strong> Mütəmadi yoxlama və baxım</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Maqnit sahəsi və elektromaqnit induksiya müasir sivilizasiyanın əsasını təşkil edir.
+                    Elektrik enerjisinin istehsalından tutmuş tibbi görüntüləməyə, nəqliyyatdan
+                    məlumat saxlamaya qədər geniş sahələrdə tətbiq olunur. Superkəçiricilər, nadir
+                    torpaq maqnitləri və nanomaqnit texnologiyaları sahəsində davam edən tədqiqatlar
+                    gələcəkdə daha səmərəli və güclü maqnit qurğularının yaradılmasına imkan verəcək.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>6. DALĞA HADİSƏLƏRİ VƏ AKUSTİK SİSTEMLƏRİN İŞLƏMƏ PRİNSİPLƏRİ</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>6.1. DALĞALARA GİRİŞ</h2>
+            <p>
+                Dalğalar enerjinin mühitdə yayılma formasıdır. Səs dalğalarından elektromaqnit
+                dalğalarına qədər müxtəlif dalğa növləri müasir texnologiyanın əsasını təşkil edir.
+            </p>
+
+            <div class="info-box">
+                <h3>Dalğaların Əsas Xarakteristikaları</h3>
+                <ul>
+                    <li><strong>Dalğa uzunluğu (λ):</strong> İki ardıcıl zirvə arası məsafə (m)</li>
+                    <li><strong>Tezlik (f):</strong> Saniyədə rəqs sayı (Hz)</li>
+                    <li><strong>Amplituda (A):</strong> Maksimum yerdəyişmə</li>
+                    <li><strong>Sürət (v):</strong> Dalğanın yayılma sürəti (m/s)</li>
+                    <li><strong>Faza:</strong> Dalğanın vəziyyəti</li>
+                </ul>
+            </div>
+
+            <div class="formula-box">
+                <p class="formula">v = fλ</p>
+                <p class="formula-desc">
+                    v - dalğa sürəti (m/s)<br>
+                    f - tezlik (Hz)<br>
+                    λ - dalğa uzunluğu (m)
+                </p>
+            </div>
+
+            <h3>6.1.1. Dalğa Növləri</h3>
+            <ul>
+                <li><strong>Mexaniki dalğalar:</strong> Mühit tələb edir (səs, su dalğaları)</li>
+                <li><strong>Elektromaqnit dalğaları:</strong> Vakuumda yayıla bilir (işıq, radio)</li>
+                <li><strong>Uzununa dalğalar:</strong> Rəqs istiqaməti yayılma istiqamətinə paralel</li>
+                <li><strong>Eninə dalğalar:</strong> Rəqs istiqaməti yayılma istiqamətinə perpendikulyar</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>6.2. SƏS DALĞALARI</h2>
+
+            <h3>6.2.1. Səsin Xassələri</h3>
+            <p>
+                Səs mexaniki uzununa dalğadır və yayılmaq üçün mühit tələb edir. Havada səsin
+                sürəti temperaturdan asılıdır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">v = 331.4 + 0.6T</p>
+                <p class="formula-desc">
+                    v - səs sürəti (m/s)<br>
+                    T - temperatur (°C)<br>
+                    20°C-də: v ≈ 343 m/s
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Səs Dalğası Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Tezlik: f = 440 Hz (La notası)</li>
+                    <li>Temperatur: T = 20°C</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Səs sürəti: v = 331.4 + 0.6 × 20 = 343.4 m/s</p>
+                <p>Dalğa uzunluğu: λ = v/f = 343.4/440 = 0.78 m = 78 sm</p>
+                <p><strong>Nəticə:</strong> 440 Hz səsin dalğa uzunluğu 78 sm-dir.</p>
+            </div>
+
+            <h3>6.2.2. Səs İntensivliyi və Desibel</h3>
+            <p>
+                Səs intensivliyi vahid sahədən keçən səs gücüdür və desibel (dB) ilə ölçülür.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">β = 10 log(I/I₀)</p>
+                <p class="formula-desc">
+                    β - səs səviyyəsi (dB)<br>
+                    I - intensivlik (W/m²)<br>
+                    I₀ = 10⁻¹² W/m² (eşitmə həddi)
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h4>Tipik Səs Səviyyələri</h4>
+                <ul>
+                    <li>Eşitmə həddi: 0 dB</li>
+                    <li>Pıçıltı: 20-30 dB</li>
+                    <li>Normal danışıq: 60 dB</li>
+                    <li>Şəhər küçəsi: 70-80 dB</li>
+                    <li>Konsert: 110-120 dB</li>
+                    <li>Ağrı həddi: 130 dB</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Səs Səviyyəsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Səs intensivliyi: I = 10⁻⁴ W/m²</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>β = 10 log(10⁻⁴/10⁻¹²) = 10 log(10⁸) = 10 × 8 = 80 dB</p>
+                <p><strong>Nəticə:</strong> Bu, şəhər küçəsinin səs səviyyəsidir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>6.3. REZONANS</h2>
+
+            <h3>6.3.1. Rezonans Hadisəsi</h3>
+            <p>
+                Rezonans sistemin təbii tezliyi ilə xarici qüvvənin tezliyi üst-üstə düşdükdə
+                amplitudanın kəskin artmasıdır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">f₀ = 1/(2π√(LC))</p>
+                <p class="formula-desc">
+                    f₀ - rezonans tezliyi (Hz)<br>
+                    L - induktivlik (H)<br>
+                    C - tutum (F)
+                </p>
+            </div>
+
+            <h3>6.3.2. Mexaniki Rezonans</h3>
+            <p>
+                Mexaniki sistemlərdə rezonans konstruksiyanın dağılmasına səbəb ola bilər.
+                Məşhur nümunə Takoma körpüsünün dağılmasıdır (1940).
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Yay-Kütlə Sistemi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Kütlə: m = 2 kq</li>
+                    <li>Yay sabiti: k = 200 N/m</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Bucaq tezliyi: ω₀ = √(k/m) = √(200/2) = 10 rad/s</p>
+                <p>Rezonans tezliyi: f₀ = ω₀/(2π) = 10/(2π) = 1.59 Hz</p>
+                <p><strong>Nəticə:</strong> Sistem 1.59 Hz tezlikdə rezonansa girir.</p>
+            </div>
+
+            <h3>6.3.3. Akustik Rezonans</h3>
+            <p>
+                Akustik rezonans musiqi alətlərinin və akustik sistemlərin əsasını təşkil edir.
+            </p>
+
+            <h4>Açıq Boru Rezonansı:</h4>
+            <div class="formula-box">
+                <p class="formula">f<sub>n</sub> = nv/(2L)</p>
+                <p class="formula-desc">
+                    n = 1, 2, 3, ... (harmonikalar)<br>
+                    L - boru uzunluğu (m)
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>6.4. AKUSTİK SİSTEMLƏR</h2>
+
+            <h3>6.4.1. Mikrofon və Dinamiklər</h3>
+            <p>
+                Mikrofonlar səs dalğalarını elektrik siqnallarına, dinamiklər isə elektrik
+                siqnallarını səs dalğalarına çevirir.
+            </p>
+
+            <h4>Mikrofon Növləri:</h4>
+            <ul>
+                <li><strong>Dinamik:</strong> Elektromaqnit induksiya prinsipi</li>
+                <li><strong>Kondensator:</strong> Tutum dəyişməsi prinsipi</li>
+                <li><strong>Piezoelektrik:</strong> Piezoelektrik effekt</li>
+                <li><strong>MEMS:</strong> Mikroelektromexaniki sistemlər</li>
+            </ul>
+
+            <h3>6.4.2. Səs Gücləndiricilər</h3>
+            <p>
+                Səs gücləndiricilər zəif elektrik siqnallarını gücləndirir və dinamiklərə ötürür.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">G<sub>dB</sub> = 20 log(V<sub>out</sub>/V<sub>in</sub>)</p>
+                <p class="formula-desc">
+                    G<sub>dB</sub> - gücləndirmə (dB)<br>
+                    V<sub>out</sub> - çıxış gərginliyi<br>
+                    V<sub>in</sub> - giriş gərginliyi
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Gücləndiricinin Gücləndirməsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Giriş gərginliyi: V<sub>in</sub> = 10 mV</li>
+                    <li>Çıxış gərginliyi: V<sub>out</sub> = 5 V</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Gücləndirmə əmsalı: A = V<sub>out</sub>/V<sub>in</sub> = 5/0.01 = 500</p>
+                <p>Desibel ilə: G = 20 log(500) = 20 × 2.7 = 54 dB</p>
+                <p><strong>Nəticə:</strong> Gücləndiricinin gücləndirməsi 54 dB-dir.</p>
+            </div>
+
+            <h3>6.4.3. Akustik Dizayn</h3>
+            <p>
+                Konsert zalları, studiyalar və teatrların akustik dizaynı səsin keyfiyyətini təyin edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Akustik Dizayn Prinsipləri</h4>
+                <ul>
+                    <li><strong>Əks-səda vaxtı:</strong> Optimal 1.5-2 saniyə</li>
+                    <li><strong>Səs əks etməsi:</strong> Düzgün bucaq və materiallar</li>
+                    <li><strong>Səs udma:</strong> Akustik panellər</li>
+                    <li><strong>Diffuziya:</strong> Səsin bərabər yayılması</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>6.5. SƏS-KÜY İZOLYASİYASI</h2>
+
+            <h3>6.5.1. Səs-Küy Azaltma Metodları</h3>
+            <p>
+                Sənaye və yaşayış sahələrində səs-küy izolyasiyası vacib məsələdir.
+            </p>
+
+            <h4>Səs Ötürmə İtkisi (STL):</h4>
+            <div class="formula-box">
+                <p class="formula">STL = 10 log(I<sub>incident</sub>/I<sub>transmitted</sub>)</p>
+                <p class="formula-desc">
+                    Yüksək STL daha yaxşı izolyasiya deməkdir
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Divar İzolyasiyası</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Gələn səs: 80 dB</li>
+                    <li>Divarın STL: 45 dB</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Keçən səs: 80 - 45 = 35 dB</p>
+                <p><strong>Nəticə:</strong> Divar səs səviyyəsini 80 dB-dən 35 dB-ə endirir.</p>
+            </div>
+
+            <h3>6.5.2. İzolyasiya Materialları</h3>
+            <ul>
+                <li><strong>Kütləvi materiallar:</strong> Beton, kərpic (əks etdirmə)</li>
+                <li><strong>Məsaməli materiallar:</strong> Akustik köpük (udma)</li>
+                <li><strong>Qat-qat strukturlar:</strong> Hava boşluqlu divarlар</li>
+                <li><strong>Vibrasiya izolyatorları:</strong> Rezin dayaqlar</li>
+            </ul>
+
+            <h3>6.5.3. Aktiv Səs-Küy Azaltma</h3>
+            <p>
+                Aktiv səs-küy azaltma (ANC) əks fazalı dalğa yaradaraq səs-küyü ləğv edir.
+            </p>
+
+            <div class="info-box">
+                <h4>ANC Tətbiqləri</h4>
+                <ul>
+                    <li>Qulaqlıqlar</li>
+                    <li>Avtomobil salonları</li>
+                    <li>Təyyarə kabinləri</li>
+                    <li>Sənaye avadanlıqları</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>6.6. ULTRASƏS TEXNOLOGİYALARI</h2>
+
+            <h3>6.6.1. Ultrasəs Xassələri</h3>
+            <p>
+                Ultrasəs insan eşitmə diapazonundan yüksək tezlikli səsdir (>20 kHz).
+            </p>
+
+            <h4>Ultrasəs Tətbiqləri:</h4>
+            <ul>
+                <li><strong>Tibbi görüntüləmə:</strong> Ultrasonoqrafiya</li>
+                <li><strong>Sənaye nəzarəti:</strong> Material qüsurlarının aşkarlanması</li>
+                <li><strong>Təmizləmə:</strong> Ultrasəs vannalar</li>
+                <li><strong>Məsafə ölçməsi:</strong> Sonar, radar</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 6: Ultrasəs Məsafə Ölçən</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Səs sürəti: v = 343 m/s</li>
+                    <li>Əks-səda vaxtı: t = 0.02 s</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Ümumi məsafə: d<sub>total</sub> = vt = 343 × 0.02 = 6.86 m</p>
+                <p>Obyektə qədər məsafə: d = d<sub>total</sub>/2 = 3.43 m</p>
+                <p><strong>Nəticə:</strong> Obyekt 3.43 m məsafədədir.</p>
+            </div>
+
+            <h3>6.6.2. Sonar Sistemləri</h3>
+            <p>
+                Sonar (Sound Navigation and Ranging) su altında obyektlərin aşkarlanması üçün
+                ultrasəs dalğalarından istifadə edir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">d = vt/2</p>
+                <p class="formula-desc">
+                    d - məsafə (m)<br>
+                    v - suda səs sürəti (~1500 m/s)<br>
+                    t - əks-səda vaxtı (s)
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>6.7. DOPPLER EFFEKTİ</h2>
+
+            <h3>6.7.1. Doppler Effektinin Əsası</h3>
+            <p>
+                Doppler effekti mənbə və ya müşahidəçi hərəkət etdikdə dalğa tezliyinin
+                dəyişməsidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">f' = f(v ± v<sub>o</sub>)/(v ∓ v<sub>s</sub>)</p>
+                <p class="formula-desc">
+                    f' - müşahidə olunan tezlik<br>
+                    f - mənbə tezliyi<br>
+                    v - səs sürəti<br>
+                    v<sub>o</sub> - müşahidəçi sürəti<br>
+                    v<sub>s</sub> - mənbə sürəti
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 7: Ambulans Sireni</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Siren tezliyi: f = 1000 Hz</li>
+                    <li>Ambulans sürəti: v<sub>s</sub> = 30 m/s</li>
+                    <li>Səs sürəti: v = 343 m/s</li>
+                </ul>
+                <p><strong>Hesablama (yaxınlaşır):</strong></p>
+                <p>f' = 1000 × 343/(343 - 30) = 1000 × 343/313 = 1096 Hz</p>
+                <p><strong>Hesablama (uzaqlaşır):</strong></p>
+                <p>f' = 1000 × 343/(343 + 30) = 1000 × 343/373 = 920 Hz</p>
+                <p><strong>Nəticə:</strong> Yaxınlaşanda tezlik artır, uzaqlaşanda azalır.</p>
+            </div>
+
+            <h3>6.7.2. Doppler Tətbiqləri</h3>
+            <ul>
+                <li><strong>Radar:</strong> Avtomobil sürətinin ölçülməsi</li>
+                <li><strong>Tibb:</strong> Qan axınının ölçülməsi (Doppler USM)</li>
+                <li><strong>Astronomiya:</strong> Ulduzların hərəkətinin təyini</li>
+                <li><strong>Meteorologiya:</strong> Külək sürətinin ölçülməsi</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>6.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+
+            <h3>6.8.1. Əsas Nəticələr</h3>
+            <p>
+                Dalğa hadisələri və akustika müasir texnologiyanın mühüm sahələridir. Səs
+                mühəndisliyi, tibbi diaqnostika, rabitə sistemləri və bir çox digər sahələrdə
+                tətbiq olunur.
+            </p>
+
+            <div class="info-box">
+                <h4>Akustikanın Tətbiq Sahələri</h4>
+                <ul>
+                    <li>Musiqi və əyləncə sənayesi</li>
+                    <li>Tibbi diaqnostika və müalicə</li>
+                    <li>Sənaye nəzarəti və test</li>
+                    <li>Memarlıq və tikinti</li>
+                    <li>Nəqliyyat və aviasiya</li>
+                </ul>
+            </div>
+
+            <h3>6.8.2. Müasir Texnologiyalar</h3>
+            <ul>
+                <li><strong>3D audio:</strong> Məkan səs effektləri</li>
+                <li><strong>Beam forming:</strong> Yönləndirilmiş səs şüaları</li>
+                <li><strong>Akustik holografiya:</strong> Səs sahəsinin görüntülənməsi</li>
+                <li><strong>Metamateriallar:</strong> Qeyri-adi akustik xassələr</li>
+            </ul>
+
+            <h3>6.8.3. Gələcək İnkişaf İstiqamətləri</h3>
+            <div class="info-box">
+                <h4>İnnovativ Texnologiyalar</h4>
+                <ul>
+                    <li><strong>Akustik levitasiya:</strong> Obyektlərin səslə asılması</li>
+                    <li><strong>Hipersonik səs:</strong> Yönləndirilmiş audio</li>
+                    <li><strong>Akustik pinsetlər:</strong> Mikrohissəciklərin manipulyasiyası</li>
+                    <li><strong>Səs əsaslı enerji ötürülməsi:</strong> Simsiz enerji</li>
+                </ul>
+            </div>
+
+            <h3>6.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Akustik dizayn:</strong> Məkanın funksiyasına uyğun dizayn edin</li>
+                <li><strong>Səs-küy nəzarəti:</strong> İzolyasiya və udma tədbirləri</li>
+                <li><strong>Avadanlıq seçimi:</strong> Keyfiyyətli mikrofon və dinamiklər</li>
+                <li><strong>Ölçmə və test:</strong> Akustik parametrləri mütəmadi yoxlayın</li>
+                <li><strong>Təhlükəsizlik:</strong> Yüksək səs səviyyələrindən qorunun</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Dalğa hadisələri və akustika fizikasının fundamental prinsipləri geniş tətbiq
+                    sahəsinə malikdir. Səs mühəndisliyindən tibbi görüntüləməyə, sənaye nəzarətindən
+                    memarlıq akustikasına qədər müxtəlif sahələrdə istifadə olunur. Müasir rəqəmsal
+                    texnologiyalar və metamateriallar akustika sahəsində yeni imkanlar açır və
+                    gələcəkdə daha təkmil akustik sistemlərin yaradılmasına imkan verəcək.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>7. İŞIĞIN İNTERFERENSİYASI VƏ DİFRAKSİYASI: OPTİK CİHAZLARDA TƏTBİQLƏR</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>7.1. İŞIĞIN DALĞA TƏBİƏTİ</h2>
+            <p>
+                İşıq elektromaqnit dalğasıdır və həm dalğa, həm də hissəcik xassələrinə malikdir.
+                İnterferensiya və difraksiya işığın dalğa təbiətinin sübutlarıdır.
+            </p>
+
+            <div class="info-box">
+                <h3>İşığın Əsas Xarakteristikaları</h3>
+                <ul>
+                    <li><strong>Sürət (c):</strong> 3 × 10⁸ m/s (vakuumda)</li>
+                    <li><strong>Dalğa uzunluğu:</strong> 400-700 nm (görünən işıq)</li>
+                    <li><strong>Tezlik:</strong> 4-7.5 × 10¹⁴ Hz</li>
+                    <li><strong>Enerji:</strong> E = hf (Plank sabiti h = 6.626 × 10⁻³⁴ J·s)</li>
+                </ul>
+            </div>
+
+            <div class="formula-box">
+                <p class="formula">c = fλ</p>
+                <p class="formula-desc">
+                    c - işıq sürəti<br>
+                    f - tezlik<br>
+                    λ - dalğa uzunluğu
+                </p>
+            </div>
+
+            <h3>7.1.1. Elektromaqnit Spektri</h3>
+            <ul>
+                <li><strong>Radio dalğaları:</strong> > 1 mm</li>
+                <li><strong>Mikrodalğalar:</strong> 1 mm - 1 m</li>
+                <li><strong>İnfraqırmızı:</strong> 700 nm - 1 mm</li>
+                <li><strong>Görünən işıq:</strong> 400-700 nm</li>
+                <li><strong>Ultrabənövşəyi:</strong> 10-400 nm</li>
+                <li><strong>Rentgen:</strong> 0.01-10 nm</li>
+                <li><strong>Qamma şüaları:</strong>
+                    < 0.01 nm</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>7.2. İNTERFERENSİYA</h2>
+
+            <h3>7.2.1. İnterferensiya Prinsipi</h3>
+            <p>
+                İnterferensiya iki və ya daha çox dalğanın üst-üstə düşməsi nəticəsində yaranan
+                hadisədir. Dalğalar bir-birini gücləndirə və ya zəiflədə bilər.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">Konstruktiv: δ = mλ (m = 0, 1, 2, ...)</p>
+                <p class="formula">Destruktiv: δ = (m + 1/2)λ</p>
+                <p class="formula-desc">
+                    δ - yol fərqi<br>
+                    m - tam ədəd
+                </p>
+            </div>
+
+            <h3>7.2.2. Yunq Təcrübəsi (İkiqat Yarıq)</h3>
+            <p>
+                Thomas Young 1801-ci ildə ikiqat yarıq təcrübəsi ilə işığın dalğa təbiətini sübut etdi.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">y<sub>m</sub> = mλL/d</p>
+                <p class="formula-desc">
+                    y<sub>m</sub> - m-ci maksimumun mövqeyi<br>
+                    λ - dalğa uzunluğu<br>
+                    L - ekrana qədər məsafə<br>
+                    d - yarıqlar arası məsafə
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: İkiqat Yarıq İnterferensiyası</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Dalğa uzunluğu: λ = 600 nm = 6 × 10⁻⁷ m</li>
+                    <li>Yarıqlar arası: d = 0.1 mm = 10⁻⁴ m</li>
+                    <li>Ekran məsafəsi: L = 2 m</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Birinci maksimum: y₁ = 1 × 6 × 10⁻⁷ × 2/10⁻⁴ = 0.012 m = 12 mm</p>
+                <p>Zolaqlar arası: Δy = λL/d = 12 mm</p>
+                <p><strong>Nəticə:</strong> İnterferensiya zolaqları 12 mm aralıqla yerləşir.</p>
+            </div>
+
+            <h3>7.2.3. Nazik Təbəqə İnterferensiyası</h3>
+            <p>
+                Sabun köpüyü və yağ ləkələrindəki rənglər nazik təbəqə interferensiyasının nəticəsidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">2nt = mλ</p>
+                <p class="formula-desc">
+                    n - sınma əmsalı<br>
+                    t - təbəqə qalınlığı<br>
+                    Konstruktiv interferensiya üçün
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>7.3. DİFRAKSİYA</h2>
+
+            <h3>7.3.1. Difraksiya Hadisəsi</h3>
+            <p>
+                Difraksiya işığın maneələrin ətrafından əyilməsidir. Bu hadisə işığın dalğa
+                təbiətinin başqa bir sübutudur.
+            </p>
+
+            <h4>Tək Yarıq Difraksiyası:</h4>
+            <div class="formula-box">
+                <p class="formula">a sin θ = mλ</p>
+                <p class="formula-desc">
+                    a - yarıq eni<br>
+                    θ - bucaq<br>
+                    m = 1, 2, 3, ... (minimumlar üçün)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Tək Yarıq Difraksiyası</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Yarıq eni: a = 0.02 mm = 2 × 10⁻⁵ m</li>
+                    <li>Dalğa uzunluğu: λ = 500 nm = 5 × 10⁻⁷ m</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Birinci minimum: sin θ₁ = λ/a = 5 × 10⁻⁷/(2 × 10⁻⁵) = 0.025</p>
+                <p>θ₁ = arcsin(0.025) ≈ 1.43°</p>
+                <p><strong>Nəticə:</strong> Birinci minimum 1.43° bucaq altında yerləşir.</p>
+            </div>
+
+            <h3>7.3.2. Difraksiya Qəfəsi</h3>
+            <p>
+                Difraksiya qəfəsi çoxlu paralel yarıqlardan ibarətdir və spektroskopiyada istifadə olunur.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">d sin θ = mλ</p>
+                <p class="formula-desc">
+                    d - qəfəs sabiti (yarıqlar arası məsafə)<br>
+                    m = 0, ±1, ±2, ... (maksimumlar)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Difraksiya Qəfəsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Qəfəs: 500 xətt/mm → d = 2 × 10⁻⁶ m</li>
+                    <li>Dalğa uzunluğu: λ = 600 nm</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Birinci maksimum: sin θ₁ = λ/d = 6 × 10⁻⁷/(2 × 10⁻⁶) = 0.3</p>
+                <p>θ₁ = arcsin(0.3) ≈ 17.5°</p>
+                <p><strong>Nəticə:</strong> Birinci maksimum 17.5° bucaq altındadır.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>7.4. OPTİK CİHAZLAR</h2>
+
+            <h3>7.4.1. Linzalar və Güzgülər</h3>
+            <p>
+                Linzalar və güzgülər işığın sınması və əks olunması prinsiplərinə əsaslanır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub></p>
+                <p class="formula-desc">
+                    f - fokus məsafəsi<br>
+                    d<sub>o</sub> - obyekt məsafəsi<br>
+                    d<sub>i</sub> - təsvir məsafəsi
+                </p>
+            </div>
+
+            <h3>7.4.2. Mikroskop</h3>
+            <p>
+                Mikroskop kiçik obyektləri böyütmək üçün iki linza sistemindən istifadə edir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">M = M<sub>o</sub> × M<sub>e</sub></p>
+                <p class="formula-desc">
+                    M - ümumi böyütmə<br>
+                    M<sub>o</sub> - obyektiv böyütməsi<br>
+                    M<sub>e</sub> - okulyar böyütməsi
+                </p>
+            </div>
+
+            <h3>7.4.3. Teleskop</h3>
+            <p>
+                Teleskop uzaq obyektləri müşahidə etmək üçün işıq toplayan sistemdir.
+            </p>
+
+            <h4>Teleskop Növləri:</h4>
+            <ul>
+                <li><strong>Refraktor:</strong> Linzalardan istifadə edir</li>
+                <li><strong>Reflektor:</strong> Güzgülərdən istifadə edir</li>
+                <li><strong>Katadioptrik:</strong> Linza və güzgü kombinasiyası</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>7.5. LAZER TEXNOLOGİYASI</h2>
+
+            <h3>7.5.1. Lazerin İşləmə Prinsipi</h3>
+            <p>
+                LASER (Light Amplification by Stimulated Emission of Radiation) - stimullaşdırılmış
+                şüalanma vasitəsilə işığın gücləndirilməsi.
+            </p>
+
+            <div class="info-box">
+                <h4>Lazer İşığının Xassələri</h4>
+                <ul>
+                    <li><strong>Monoхromatik:</strong> Tək dalğa uzunluğu</li>
+                    <li><strong>Koherent:</strong> Eyni fazada dalğalar</li>
+                    <li><strong>Yönləndirilmiş:</strong> Paralel şüa</li>
+                    <li><strong>Yüksək intensivlik:</strong> Böyük enerji sıxlığı</li>
+                </ul>
+            </div>
+
+            <h3>7.5.2. Lazer Növləri</h3>
+            <ul>
+                <li><strong>Qaz lazerləri:</strong> He-Ne, CO₂, Argon</li>
+                <li><strong>Bərk cisim lazerləri:</strong> Yaqut, Nd:YAG</li>
+                <li><strong>Yarımkeçirici lazerləri:</strong> Diod lazerləri</li>
+                <li><strong>Boya lazerləri:</strong> Tənzimlənən dalğa uzunluğu</li>
+            </ul>
+
+            <h3>7.5.3. Lazer Tətbiqləri</h3>
+            <ul>
+                <li><strong>Tibb:</strong> Cərrahiyyə, göz müalicəsi</li>
+                <li><strong>Sənaye:</strong> Kəsmə, qaynaq, markalaşdırma</li>
+                <li><strong>Rabitə:</strong> Fiber optik sistemlər</li>
+                <li><strong>Ölçmə:</strong> Məsafə, sürət ölçməsi</li>
+                <li><strong>Tədqiqat:</strong> Spektroskopiya, holografiya</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Lazer Güc Sıxlığı</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Lazer gücü: P = 1 mW</li>
+                    <li>Şüa diametri: d = 1 mm</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Şüa sahəsi: A = πd²/4 = π(10⁻³)²/4 = 7.85 × 10⁻⁷ m²</p>
+                <p>Güc sıxlığı: I = P/A = 10⁻³/(7.85 × 10⁻⁷) = 1274 W/m²</p>
+                <p><strong>Nəticə:</strong> Kiçik sahədə yüksək enerji sıxlığı.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>7.6. HOLOGRAFİYA</h2>
+
+            <h3>7.6.1. Holoqrafik Qeydiyyat</h3>
+            <p>
+                Holografiya obyektin üçölçülü təsvirini qeyd edən və bərpa edən texnologiyadır.
+            </p>
+
+            <h4>Holoqram Yaratma Prosesi:</h4>
+            <ol>
+                <li>Lazer şüası iki hissəyə bölünür</li>
+                <li>Obyekt şüası obyektdən əks olunur</li>
+                <li>İstinad şüası birbaşa fotoplastinkaya düşür</li>
+                <li>İki şüanın interferensiyası qeyd edilir</li>
+            </ol>
+
+            <h3>7.6.2. Holografiya Tətbiqləri</h3>
+            <ul>
+                <li><strong>Təhlükəsizlik:</strong> Kredit kartları, pul</li>
+                <li><strong>Məlumat saxlama:</strong> Yüksək tutumlu yaddaş</li>
+                <li><strong>Tibb:</strong> 3D görüntüləmə</li>
+                <li><strong>Sənət:</strong> Holoqrafik displey</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>7.7. FİBER OPTİK SİSTEMLƏR</h2>
+
+            <h3>7.7.1. Tam Daxili Əks Olunma</h3>
+            <p>
+                Fiber optik sistemlər tam daxili əks olunma prinsipinə əsaslanır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">sin θ<sub>c</sub> = n₂/n₁</p>
+                <p class="formula-desc">
+                    θ<sub>c</sub> - kritik bucaq<br>
+                    n₁ - nüvə sınma əmsalı<br>
+                    n₂ - örtük sınma əmsalı
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Optik Fiber</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Nüvə sınma əmsalı: n₁ = 1.5</li>
+                    <li>Örtük sınma əmsalı: n₂ = 1.45</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Kritik bucaq: sin θ<sub>c</sub> = 1.45/1.5 = 0.967</p>
+                <p>θ<sub>c</sub> = arcsin(0.967) ≈ 75.2°</p>
+                <p><strong>Nəticə:</strong> 75.2°-dən böyük bucaqlarda tam əks olunma baş verir.</p>
+            </div>
+
+            <h3>7.7.2. Fiber Optik Tətbiqləri</h3>
+            <ul>
+                <li><strong>Telekommunikasiya:</strong> İnternet, telefon</li>
+                <li><strong>Tibb:</strong> Endoskopiya</li>
+                <li><strong>Sensorlar:</strong> Temperatur, təzyiq ölçməsi</li>
+                <li><strong>İşıqlandırma:</strong> Dekorativ işıqlandırma</li>
+            </ul>
+
+            <h3>7.7.3. Fiber Optik Üstünlükləri</h3>
+            <ul>
+                <li>Yüksək bant genişliyi</li>
+                <li>Aşağı siqnal itkisi</li>
+                <li>Elektromaqnit müdaxiləyə davamlı</li>
+                <li>Kiçik ölçü və çəki</li>
+                <li>Təhlükəsizlik (dinləməyə qarşı)</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>7.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+
+            <h3>7.8.1. Əsas Nəticələr</h3>
+            <p>
+                İşığın interferensiyası və difraksiyası onun dalğa təbiətinin fundamental sübutlarıdır.
+                Bu hadisələr müasir optik texnologiyaların əsasını təşkil edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Optikanın Tətbiq Sahələri</h4>
+                <ul>
+                    <li>Telekommunikasiya və məlumat ötürülməsi</li>
+                    <li>Tibbi diaqnostika və müalicə</li>
+                    <li>Sənaye emalı və ölçmə</li>
+                    <li>Elmi tədqiqat və spektroskopiya</li>
+                    <li>İstehlak elektronikası və displey texnologiyaları</li>
+                </ul>
+            </div>
+
+            <h3>7.8.2. Müasir Texnologiyalar</h3>
+            <ul>
+                <li><strong>Kvant optikası:</strong> Kvant kompüterlər və kriptoqrafiya</li>
+                <li><strong>Metamateriallar:</strong> Mənfi sınma əmsalı</li>
+                <li><strong>Plazmonika:</strong> Nanomiqyasda optika</li>
+                <li><strong>Fotonika:</strong> İşıq əsaslı hesablama</li>
+            </ul>
+
+            <h3>7.8.3. Gələcək İnkişaf İstiqamətləri</h3>
+            <div class="info-box">
+                <h4>İnnovativ Texnologiyalar</h4>
+                <ul>
+                    <li><strong>Kvant rabitə:</strong> Tam təhlükəsiz məlumat ötürülməsi</li>
+                    <li><strong>Optik kompüterlər:</strong> İşıq əsaslı prosessorlar</li>
+                    <li><strong>Holoqrafik displey:</strong> 3D görüntülər</li>
+                    <li><strong>Görünməzlik texnologiyası:</strong> Metamaterial örtüklər</li>
+                </ul>
+            </div>
+
+            <h3>7.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Optik dizayn:</strong> Düzgün linza və güzgü seçimi</li>
+                <li><strong>Lazer təhlükəsizliyi:</strong> Qoruyucu eynək istifadəsi</li>
+                <li><strong>Fiber optik quraşdırma:</strong> Əyilmə radiusuna riayət</li>
+                <li><strong>Təmizlik:</strong> Optik elementlərin qayğısı</li>
+                <li><strong>Kalibrləmə:</strong> Mütəmadi yoxlama və tənzimləmə</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    İşığın interferensiyası və difraksiyası fundamental optik hadisələrdir və müasir
+                    texnologiyanın əsasını təşkil edir. Lazer texnologiyası, fiber optik rabitə,
+                    holografiya və spektroskopiya bu prinsiplərə əsaslanır. Kvant optikası və
+                    metamateriallar sahəsində davam edən tədqiqatlar gələcəkdə daha təkmil optik
+                    sistemlərin və tamamilə yeni tətbiqlərin yaradılmasına imkan verəcək.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>8. QAZLARIN KİNETİK NƏZƏRİYYƏSİ VƏ İSTİLİK PROSESLƏRİNİN MODELLƏŞDİRİLMƏSİ</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>8.1. KİNETİK NƏZƏRİYYƏYƏ GİRİŞ</h2>
+            <p>
+                Qazların kinetik nəzəriyyəsi qazların makroskopik xassələrini (təzyiq, temperatur, həcm)
+                molekulların mikroskopik hərəkəti ilə izah edir.
+            </p>
+
+            <div class="info-box">
+                <h3>Kinetik Nəzəriyyənin Əsas Fərziyyələri</h3>
+                <ul>
+                    <li>Qaz çoxlu sayda kiçik molekullardan ibarətdir</li>
+                    <li>Molekullar daimi təsadüfi hərəkətdədir</li>
+                    <li>Molekullar arası toqquşmalar elastikdir</li>
+                    <li>Molekullar arası qüvvələr nəzərə alınmır</li>
+                    <li>Molekulların orta kinetik enerjisi temperatura mütənasibdir</li>
+                </ul>
+            </div>
+
+            <div class="formula-box">
+                <p class="formula">E<sub>k</sub> = (3/2)kT</p>
+                <p class="formula-desc">
+                    E<sub>k</sub> - orta kinetik enerji (J)<br>
+                    k - Boltzmann sabiti (1.38 × 10⁻²³ J/K)<br>
+                    T - mütləq temperatur (K)
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>8.2. İDEAL QAZ QANUNU</h2>
+
+            <h3>8.2.1. İdeal Qaz Tənliyi</h3>
+            <p>
+                İdeal qaz qanunu qazın təzyiqi, həcmi, temperaturu və mol sayı arasındakı əlaqəni təsvir edir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">PV = nRT</p>
+                <p class="formula-desc">
+                    P - təzyiq (Pa)<br>
+                    V - həcm (m³)<br>
+                    n - mol sayı<br>
+                    R - universal qaz sabiti (8.314 J/(mol·K))<br>
+                    T - temperatur (K)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Qaz Təzyiqi Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Qaz həcmi: V = 0.5 m³</li>
+                    <li>Mol sayı: n = 2 mol</li>
+                    <li>Temperatur: T = 300 K</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Təzyiq: P = nRT/V = 2 × 8.314 × 300/0.5</p>
+                <p>P = 9977 Pa ≈ 10 kPa</p>
+                <p><strong>Nəticə:</strong> Qazın təzyiqi təxminən 10 kPa-dır.</p>
+            </div>
+
+            <h3>8.2.2. Molekulların Orta Kvadratik Sürəti</h3>
+            <div class="formula-box">
+                <p class="formula">v<sub>rms</sub> = √(3RT/M) = √(3kT/m)</p>
+                <p class="formula-desc">
+                    v<sub>rms</sub> - orta kvadratik sürət (m/s)<br>
+                    M - molyar kütlə (kq/mol)<br>
+                    m - molekul kütləsi (kq)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Oksigen Molekullarının Sürəti</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Temperatur: T = 300 K</li>
+                    <li>O₂ molyar kütləsi: M = 32 × 10⁻³ kq/mol</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>v<sub>rms</sub> = √(3 × 8.314 × 300/(32 × 10⁻³))</p>
+                <p>v<sub>rms</sub> = √(233,513) = 483 m/s</p>
+                <p><strong>Nəticə:</strong> Oksigen molekulları orta hesabla 483 m/s sürətlə hərəkət edir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>8.3. DİFFUZİYA VƏ OSMOZ</h2>
+
+            <h3>8.3.1. Diffuziya Prosesi</h3>
+            <p>
+                Diffuziya molekulların konsentrasiya qradiyenti boyunca yayılmasıdır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">J = -D(dC/dx)</p>
+                <p class="formula-desc">
+                    J - diffuziya axını (mol/(m²·s))<br>
+                    D - diffuziya əmsalı (m²/s)<br>
+                    dC/dx - konsentrasiya qradiyenti
+                </p>
+            </div>
+
+            <h3>8.3.2. Diffuziya Tətbiqləri</h3>
+            <ul>
+                <li><strong>Yarımkeçirici istehsalı:</strong> Dopinq prosesi</li>
+                <li><strong>Tibb:</strong> Dərman maddələrinin yayılması</li>
+                <li><strong>Kimya sənayesi:</strong> Reaksiya prosesləri</li>
+                <li><strong>Ətraf mühit:</strong> Çirkləndiricilərin yayılması</li>
+            </ul>
+
+            <h3>8.3.3. Osmoz</h3>
+            <p>
+                Osmoz həlledici molekullarının yarımkeçirici membran vasitəsilə yayılmasıdır.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">π = CRT</p>
+                <p class="formula-desc">
+                    π - osmotik təzyiq (Pa)<br>
+                    C - molyar konsentrasiya (mol/m³)
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>8.4. İSTİLİK ÖTÜRÜLMƏSİ</h2>
+
+            <h3>8.4.1. Keçiricilik (Konduksiya)</h3>
+            <p>
+                İstilik keçiriciliyi molekulların kinetik enerjisinin ötürülməsidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">Q/t = kA(ΔT/Δx)</p>
+                <p class="formula-desc">
+                    Q/t - istilik axını (W)<br>
+                    k - istilik keçiriciliyi (W/(m·K))<br>
+                    A - sahə (m²)<br>
+                    ΔT/Δx - temperatur qradiyenti (K/m)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Pəncərə İstilik İtkisi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Pəncərə sahəsi: A = 2 m²</li>
+                    <li>Şüşə qalınlığı: Δx = 4 mm = 0.004 m</li>
+                    <li>Şüşənin k əmsalı: k = 0.8 W/(m·K)</li>
+                    <li>Temperatur fərqi: ΔT = 20°C</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>İstilik itkisi: Q/t = 0.8 × 2 × 20/0.004 = 8000 W = 8 kW</p>
+                <p><strong>Nəticə:</strong> Pəncərədən 8 kW istilik itkisi baş verir.</p>
+            </div>
+
+            <h3>8.4.2. Konveksiya</h3>
+            <p>
+                Konveksiya maye və ya qazın hərəkəti ilə istilik ötürülməsidir.
+            </p>
+
+            <h4>Konveksiya Növləri:</h4>
+            <ul>
+                <li><strong>Təbii konveksiya:</strong> Sıxlıq fərqi ilə</li>
+                <li><strong>Məcburi konveksiya:</strong> Nasos və ya ventilyatorla</li>
+            </ul>
+
+            <h3>8.4.3. Radiasiya</h3>
+            <p>
+                İstilik radiasiyası elektromaqnit dalğaları vasitəsilə ötürülür.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">Q/t = εσAT⁴</p>
+                <p class="formula-desc">
+                    ε - emissiya əmsalı (0-1)<br>
+                    σ - Stefan-Boltzmann sabiti (5.67 × 10⁻⁸ W/(m²·K⁴))<br>
+                    T - mütləq temperatur (K)
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>8.5. HVAC SİSTEMLƏRİ</h2>
+
+            <h3>8.5.1. İsitmə, Ventilyasiya və Kondisioner</h3>
+            <p>
+                HVAC sistemləri binalarda komfortlu mühit yaratmaq üçün istifadə olunur.
+            </p>
+
+            <div class="info-box">
+                <h4>HVAC Sisteminin Komponentləri</h4>
+                <ul>
+                    <li><strong>İstilik mənbəyi:</strong> Qazan, istilik nasosları</li>
+                    <li><strong>Soyutma sistemi:</strong> Kondisionerlər, çillerlər</li>
+                    <li><strong>Ventilyasiya:</strong> Hava mübadiləsi</li>
+                    <li><strong>İdarəetmə:</strong> Termostatlar, sensorlar</li>
+                </ul>
+            </div>
+
+            <h3>8.5.2. Enerji Səmərəliliyi</h3>
+            <p>
+                HVAC sistemləri binaların enerji istehlakının 40-60%-ni təşkil edir.
+            </p>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: İsitmə Yükü Hesablaması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Bina həcmi: V = 500 m³</li>
+                    <li>Hava dəyişmə tezliyi: n = 0.5 h⁻¹</li>
+                    <li>Temperatur fərqi: ΔT = 25°C</li>
+                    <li>Havanın istilik tutumu: c = 1.2 kJ/(m³·K)</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Hava axını: Q<sub>v</sub> = nV = 0.5 × 500 = 250 m³/h</p>
+                <p>İstilik yükü: Q = Q<sub>v</sub>cΔT = 250 × 1.2 × 25 = 7500 kJ/h = 2.08 kW</p>
+                <p><strong>Nəticə:</strong> Ventilyasiya üçün 2.08 kW istilik gücü lazımdır.</p>
+            </div>
+
+            <h3>8.5.3. Hava Keyfiyyəti</h3>
+            <ul>
+                <li><strong>Filtrasiya:</strong> Toz və çirkləndiricilərin təmizlənməsi</li>
+                <li><strong>Rütubət nəzarəti:</strong> 40-60% optimal diapazon</li>
+                <li><strong>CO₂ səviyyəsi:</strong>
+                    <1000 ppm</li>
+                <li><strong>Temperatur:</strong> 20-24°C optimal</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>8.6. SOYUTMA SİSTEMLƏRİ</h2>
+
+            <h3>8.6.1. Soyuducu Tsikli</h3>
+            <p>
+                Soyuducu tsikli istilik nasosunun tərsinə işləyir və istiliyi soyuq mənbədən isti mənbəyə ötürür.
+            </p>
+
+            <h4>Soyuducu Tsiklinin Mərhələləri:</h4>
+            <ol>
+                <li><strong>Buxarlanma:</strong> Soyuducu agent istilik udur</li>
+                <li><strong>Sıxılma:</strong> Kompressor təzyiq artırır</li>
+                <li><strong>Kondensasiya:</strong> İstilik ətraf mühitə verilir</li>
+                <li><strong>Genişlənmə:</strong> Təzyiq və temperatur azalır</li>
+            </ol>
+
+            <div class="formula-box">
+                <p class="formula">COP = Q<sub>L</sub>/W</p>
+                <p class="formula-desc">
+                    COP - performans əmsalı<br>
+                    Q<sub>L</sub> - soyutma gücü<br>
+                    W - kompressor gücü
+                </p>
+            </div>
+
+            <h3>8.6.2. Soyuducu Agentlər</h3>
+            <ul>
+                <li><strong>R-134a:</strong> Avtomobil kondisionerləri</li>
+                <li><strong>R-410A:</strong> Ev kondisionerləri</li>
+                <li><strong>R-744 (CO₂):</strong> Təbii soyuducu</li>
+                <li><strong>Ammiak:</strong> Sənaye soyutma</li>
+            </ul>
+
+            <h3>8.6.3. Kriogen Texnologiyalar</h3>
+            <p>
+                Kriogen texnologiyalar çox aşağı temperaturlarda (< -150°C) işləyir. </p>
+
+                    <h4>Tətbiqlər:</h4>
+                    <ul>
+                        <li>Maye azot və oksigen istehsalı</li>
+                        <li>Superkəçirici maqnitlər</li>
+                        <li>Qida saxlanması</li>
+                        <li>Tibbi kriokonservasiya</li>
+                    </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>8.7. ATMOSFERİK PROSESLƏRİN MODELLƏŞDİRİLMƏSİ</h2>
+
+            <h3>8.7.1. Atmosfer Fizikası</h3>
+            <p>
+                Atmosferdə qazların davranışı hava proqnozlaşdırması və iqlim modelləşdirilməsi üçün vacibdir.
+            </p>
+
+            <h4>Barometrik Formula:</h4>
+            <div class="formula-box">
+                <p class="formula">P = P₀e<sup>-Mgh/(RT)</sup></p>
+                <p class="formula-desc">
+                    P - hündürlükdə təzyiq<br>
+                    P₀ - dəniz səviyyəsində təzyiq<br>
+                    h - hündürlük<br>
+                    M - havanın molyar kütləsi
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Dağda Təzyiq</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Dəniz səviyyəsində: P₀ = 101,325 Pa</li>
+                    <li>Hündürlük: h = 3000 m</li>
+                    <li>Temperatur: T = 280 K</li>
+                    <li>M = 29 × 10⁻³ kq/mol</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Eksponent: Mgh/(RT) = (29 × 10⁻³ × 9.8 × 3000)/(8.314 × 280) = 0.366</p>
+                <p>Təzyiq: P = 101,325 × e<sup>-0.366</sup> = 101,325 × 0.693 = 70,218 Pa ≈ 70 kPa</p>
+                <p><strong>Nəticə:</strong> 3000 m hündürlükdə təzyiq təxminən 70 kPa-dır.</p>
+            </div>
+
+            <h3>8.7.2. İqlim Modelləşdirilməsi</h3>
+            <p>
+                İqlim modelləri atmosfer, okean və quru proseslərini simulyasiya edir.
+            </p>
+
+            <h4>Model Komponentləri:</h4>
+            <ul>
+                <li>Atmosfer dinamikası</li>
+                <li>İstilik və nəmlik ötürülməsi</li>
+                <li>Radiasiya balansı</li>
+                <li>Okean-atmosfer qarşılıqlı təsiri</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>8.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+
+            <h3>8.8.1. Əsas Nəticələr</h3>
+            <p>
+                Qazların kinetik nəzəriyyəsi makroskopik hadisələri mikroskopik səviyyədə izah edir
+                və mühəndislik sistemlərinin dizaynı üçün fundamental əsasdır.
+            </p>
+
+            <div class="info-box">
+                <h4>Kinetik Nəzəriyyənin Tətbiq Sahələri</h4>
+                <ul>
+                    <li>HVAC sistemləri və bina enerji səmərəliliyi</li>
+                    <li>Soyutma və kondisioner texnologiyaları</li>
+                    <li>Atmosfer və iqlim modelləşdirilməsi</li>
+                    <li>Kimya sənayesi və proses mühəndisliyi</li>
+                    <li>Yarımkeçirici istehsalı və materiallar elmi</li>
+                </ul>
+            </div>
+
+            <h3>8.8.2. Müasir Texnologiyalar</h3>
+            <ul>
+                <li><strong>Ağıllı HVAC:</strong> AI əsaslı optimallaşdırma</li>
+                <li><strong>Maqnit soyutma:</strong> Bərk cisim soyutma</li>
+                <li><strong>Termoelektrik soyutma:</strong> Peltier effekti</li>
+                <li><strong>Nanofluidlər:</strong> Təkmilləşdirilmiş istilik ötürülməsi</li>
+            </ul>
+
+            <h3>8.8.3. Gələcək İnkişaf İstiqamətləri</h3>
+            <div class="info-box">
+                <h4>İnnovativ Texnologiyalar</h4>
+                <ul>
+                    <li><strong>Kvant istilik mühərrikləri:</strong> Nanomiqyasda enerji çevrilməsi</li>
+                    <li><strong>Metamaterial izolyasiya:</strong> Super-izolyasiya materialları</li>
+                    <li><strong>Faza dəyişən materiallar:</strong> Termal enerji saxlama</li>
+                    <li><strong>Bioloji ilhamlanmış soyutma:</strong> Təbiətdən öyrənmə</li>
+                </ul>
+            </div>
+
+            <h3>8.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Enerji auditi:</strong> Binaların istilik itkisini qiymətləndirin</li>
+                <li><strong>İzolyasiya:</strong> Düzgün izolyasiya materialları seçin</li>
+                <li><strong>HVAC optimallaşdırması:</strong> Sistemləri düzgün ölçüləndirin</li>
+                <li><strong>Texniki xidmət:</strong> Mütəmadi yoxlama və təmizləmə</li>
+                <li><strong>Monitorinq:</strong> Enerji istehlakını izləyin</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Qazların kinetik nəzəriyyəsi fizikanın fundamental sahəsidir və geniş praktik
+                    tətbiqlərə malikdir. HVAC sistemlərindən atmosfer proseslərinin modelləşdirilməsinə,
+                    soyutma texnologiyalarından material elmininə qədər müxtəlif sahələrdə istifadə
+                    olunur. Enerji səmərəliliyi və iqlim dəyişikliyi kontekstində bu sahənin əhəmiyyəti
+                    daha da artır və yeni texnologiyaların inkişafı üçün fundamental əsas təşkil edir.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>9. ATOM VƏ NÜVƏ FİZİKASI PRİNSİPLƏRİNİN MÜASİR TEXNOLOGİYALARDA ROLU</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>9.1. ATOM QURULUŞU</h2>
+            <p>
+                Atom maddənin ən kiçik vahididir və nüvə ilə onu əhatə edən elektronlardan ibarətdir.
+                Atom fizikası müasir texnologiyanın əsasını təşkil edir.
+            </p>
+
+            <div class="info-box">
+                <h3>Atomun Əsas Komponentləri</h3>
+                <ul>
+                    <li><strong>Nüvə:</strong> Protonlar və neytronlardan ibarət</li>
+                    <li><strong>Proton:</strong> Müsbət yüklü (e = +1.6 × 10⁻¹⁹ C)</li>
+                    <li><strong>Neytron:</strong> Yüksüz, protonla eyni kütlə</li>
+                    <li><strong>Elektron:</strong> Mənfi yüklü (e = -1.6 × 10⁻¹⁹ C)</li>
+                    <li><strong>Atom nömrəsi (Z):</strong> Proton sayı</li>
+                    <li><strong>Kütlə nömrəsi (A):</strong> Proton + neytron sayı</li>
+                </ul>
+            </div>
+
+            <h3>9.1.1. Bohr Modeli</h3>
+            <p>
+                Niels Bohr 1913-cü ildə hidrogen atomu üçün kvant modeli təklif etdi.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">E<sub>n</sub> = -13.6/n² eV</p>
+                <p class="formula-desc">
+                    E<sub>n</sub> - n-ci enerji səviyyəsi<br>
+                    n = 1, 2, 3, ... (kvant ədədi)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Hidrogen Atom Keçidi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Başlanğıc səviyyə: n₁ = 3</li>
+                    <li>Son səviyyə: n₂ = 2</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>E₃ = -13.6/9 = -1.51 eV</p>
+                <p>E₂ = -13.6/4 = -3.4 eV</p>
+                <p>Foton enerjisi: ΔE = E₃ - E₂ = -1.51 - (-3.4) = 1.89 eV</p>
+                <p>Dalğa uzunluğu: λ = hc/ΔE = (4.14 × 10⁻¹⁵ × 3 × 10⁸)/(1.89 × 1.6 × 10⁻¹⁹) = 656 nm</p>
+                <p><strong>Nəticə:</strong> Qırmızı işıq (Balmer seriyası, Hα xətti).</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>9.2. RADİOAKTİVLİK</h2>
+
+            <h3>9.2.1. Radioaktiv Parçalanma</h3>
+            <p>
+                Radioaktivlik qeyri-sabit nüvələrin özbaşına parçalanması ilə şüalanma buraxılmasıdır.
+            </p>
+
+            <h4>Şüalanma Növləri:</h4>
+            <ul>
+                <li><strong>Alfa (α):</strong> Helium nüvəsi (2 proton + 2 neytron)</li>
+                <li><strong>Beta (β):</strong> Elektron və ya pozitron</li>
+                <li><strong>Qamma (γ):</strong> Yüksək enerjili foton</li>
+            </ul>
+
+            <div class="formula-box">
+                <p class="formula">N(t) = N₀e<sup>-λt</sup></p>
+                <p class="formula-desc">
+                    N(t) - t vaxtında nüvə sayı<br>
+                    N₀ - başlanğıc nüvə sayı<br>
+                    λ - parçalanma sabiti (s⁻¹)<br>
+                    t<sub>1/2</sub> = ln(2)/λ (yarımparçalanma dövrü)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Karbon-14 Tarixləndirməsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>C-14 yarımparçalanma dövrü: t<sub>1/2</sub> = 5730 il</li>
+                    <li>Qalıq aktivlik: 25% (N/N₀ = 0.25)</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>λ = ln(2)/5730 = 1.21 × 10⁻⁴ il⁻¹</p>
+                <p>0.25 = e<sup>-λt</sup></p>
+                <p>ln(0.25) = -λt</p>
+                <p>t = -ln(0.25)/λ = 1.386/(1.21 × 10⁻⁴) = 11,460 il</p>
+                <p><strong>Nəticə:</strong> Nümunənin yaşı təxminən 11,460 ildir.</p>
+            </div>
+
+            <h3>9.2.2. Radioaktivliyin Tətbiqləri</h3>
+            <ul>
+                <li><strong>Tibb:</strong> Diaqnostika və müalicə (PET, radioterapiya)</li>
+                <li><strong>Sənaye:</strong> Qeyri-dağıdıcı test, qalınlıq ölçməsi</li>
+                <li><strong>Arxeologiya:</strong> Tarixləndirmə metodları</li>
+                <li><strong>Enerji:</strong> Nüvə elektrik stansiyaları</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>9.3. NÜVƏ REAKSİYALARI</h2>
+
+            <h3>9.3.1. Nüvə Parçalanması (Fissi ya)</h3>
+            <p>
+                Ağır nüvənin iki və ya daha çox yüngül nüvəyə parçalanması prosesidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">E = mc²</p>
+                <p class="formula-desc">
+                    E - enerji (J)<br>
+                    m - kütlə defekti (kq)<br>
+                    c - işıq sürəti (3 × 10⁸ m/s)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Uran-235 Parçalanması</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Kütlə defekti: Δm = 0.2 u = 3.32 × 10⁻²⁸ kq</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>E = mc² = 3.32 × 10⁻²⁸ × (3 × 10⁸)²</p>
+                <p>E = 2.99 × 10⁻¹¹ J = 187 MeV</p>
+                <p><strong>Nəticə:</strong> Bir parçalanma ~200 MeV enerji buraxır.</p>
+            </div>
+
+            <h3>9.3.2. Nüvə Birləşməsi (Füziya)</h3>
+            <p>
+                Yüngül nüvələrin birləşərək daha ağır nüvə əmələ gətirməsi prosesidir.
+            </p>
+
+            <h4>Günəşdə Füziya:</h4>
+            <div class="formula-box">
+                <p class="formula">4¹H → ⁴He + 2e⁺ + 2ν + enerji</p>
+                <p class="formula-desc">
+                    Hər tsikldə ~26.7 MeV enerji buraxılır
+                </p>
+            </div>
+
+            <h3>9.3.3. Nüvə Enerjisi</h3>
+            <p>
+                Nüvə elektrik stansiyaları nüvə parçalanmasından istifadə edərək elektrik enerjisi istehsal edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Nüvə Reaktorunun Komponentləri</h4>
+                <ul>
+                    <li><strong>Yanacaq:</strong> Zənginləşdirilmiş uran (3-5% U-235)</li>
+                    <li><strong>Moderator:</strong> Neytronları yavaşlatır (su, qrafit)</li>
+                    <li><strong>İdarəetmə çubuqları:</strong> Reaksiyanı tənzimləyir</li>
+                    <li><strong>Soyuducu:</strong> İstiliyi çıxarır</li>
+                    <li><strong>Qoruyucu örtük:</strong> Radiasiyadan qoruyur</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>9.4. TİBBİ TƏTBİQLƏR</h2>
+
+            <h3>9.4.1. Nüvə Tibbi</h3>
+            <p>
+                Nüvə tibbi diaqnostika və müalicə üçün radioaktiv izotoplardan istifadə edir.
+            </p>
+
+            <h4>Diaqnostik Metodlar:</h4>
+            <ul>
+                <li><strong>PET (Pozitron Emissiya Tomoqrafiyası):</strong> F-18 FDG</li>
+                <li><strong>SPECT:</strong> Tc-99m</li>
+                <li><strong>Tiroid skanı:</strong> I-131</li>
+            </ul>
+
+            <h4>Radioterapiya:</h4>
+            <ul>
+                <li><strong>Xarici şüalanma:</strong> Xətti sürətləndirici</li>
+                <li><strong>Braxiterapiya:</strong> Daxili şüalanma mənbəyi</li>
+                <li><strong>Radioimmünoterapiya:</strong> Hədəflənmiş müalicə</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Radioterapiya Dozası</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Şüalanma enerjisi: E = 6 MeV</li>
+                    <li>Udulmuş doza: D = 2 Gy (Gray)</li>
+                    <li>Toxuma kütləsi: m = 0.1 kq</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Ümumi enerji: E<sub>total</sub> = Dm = 2 × 0.1 = 0.2 J</p>
+                <p>1 Gy = 1 J/kq</p>
+                <p><strong>Nəticə:</strong> Toxuma 0.2 J enerji udur.</p>
+            </div>
+
+            <h3>9.4.2. Görüntüləmə Texnologiyaları</h3>
+            <p>
+                Müasir tibbi görüntüləmə atom və nüvə fizikası prinsiplərinə əsaslanır.
+            </p>
+
+            <ul>
+                <li><strong>CT (Kompüter Tomoqrafiyası):</strong> Rentgen şüaları</li>
+                <li><strong>MRI:</strong> Nüvə maqnit rezonansı</li>
+                <li><strong>PET-CT:</strong> Hibrid görüntüləmə</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>9.5. YARIMKEÇ İRİCİ TEXNOLOGİYALARI</h2>
+
+            <h3>9.5.1. Kvant Mexanikası və Yarımkeçiricilər</h3>
+            <p>
+                Yarımkeçirici cihazlar kvant mexanikası prinsiplərinə əsaslanır.
+            </p>
+
+            <h4>Enerji Zolaqları:</h4>
+            <ul>
+                <li><strong>Valent zolaq:</strong> Elektronlarla dolu</li>
+                <li><strong>Keçiricilik zolağı:</strong> Boş və ya qismən dolu</li>
+                <li><strong>Qadağan olunmuş zolaq:</strong> Enerji fərqi (E<sub>g</sub>)</li>
+            </ul>
+
+            <div class="formula-box">
+                <p class="formula">n = N<sub>c</sub>e<sup>-(E<sub>c</sub>-E<sub>F</sub>)/(kT)</sup></p>
+                <p class="formula-desc">
+                    n - elektron konsentrasiyası<br>
+                    N<sub>c</sub> - effektiv sıxlıq<br>
+                    E<sub>F</sub> - Fermi enerjisi
+                </p>
+            </div>
+
+            <h3>9.5.2. Yarımkeçirici Cihazlar</h3>
+            <ul>
+                <li><strong>Diodlar:</strong> p-n keçid</li>
+                <li><strong>Tranzistorlar:</strong> Gücləndiricilər və açarlar</li>
+                <li><strong>İnteqral sxemlər:</strong> Mikroproçessorlar</li>
+                <li><strong>LED:</strong> İşıq buraxan diodlar</li>
+                <li><strong>Günəş batareyaları:</strong> Fotovoltaik effekt</li>
+            </ul>
+
+            <h3>9.5.3. Nanomiqyasda Kvant Effektləri</h3>
+            <p>
+                Nanomiqyasda kvant effektləri dominant olur və yeni xassələr yaranır.
+            </p>
+
+            <ul>
+                <li><strong>Kvant nöqtələri:</strong> Tənzimlənən şüalanma</li>
+                <li><strong>Kvant quyuları:</strong> Lazer diodlar</li>
+                <li><strong>Kvant naqilləri:</strong> Yüksək keçiricilik</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>9.6. RADİASİYA TƏHLÜKƏSİZLİYİ</h2>
+
+            <h3>9.6.1. Radiasiya Dozası və Ölçmə</h3>
+            <p>
+                Radiasiya dozası udulmuş enerji miqdarını xarakterizə edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Doza Vahidləri</h4>
+                <ul>
+                    <li><strong>Gray (Gy):</strong> Udulmuş doza, 1 Gy = 1 J/kq</li>
+                    <li><strong>Sievert (Sv):</strong> Ekvivalent doza, bioloji təsir</li>
+                    <li><strong>Becquerel (Bq):</strong> Aktivlik, 1 Bq = 1 parçalanma/s</li>
+                </ul>
+            </div>
+
+            <h3>9.6.2. Radiasiya Qorunması</h3>
+            <p>
+                ALARA prinsipi: As Low As Reasonably Achievable (Mümkün qədər aşağı)
+            </p>
+
+            <h4>Qorunma Metodları:</h4>
+            <ol>
+                <li><strong>Vaxt:</strong> Məruz qalma vaxtını azaldın</li>
+                <li><strong>Məsafə:</strong> Mənbədən uzaqlaşın (tərs kvadrat qanunu)</li>
+                <li><strong>Ekranlama:</strong> Qurğuşun, beton istifadə edin</li>
+            </ol>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Radiasiya Zəifləməsi</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Başlanğıc doza sürəti: D₀ = 100 mSv/h</li>
+                    <li>Qurğuşun qalınlığı: x = 5 sm</li>
+                    <li>Yarımqalınlıq: x<sub>1/2</sub> = 1 sm</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Qat sayı: n = x/x<sub>1/2</sub> = 5/1 = 5</p>
+                <p>Doza: D = D₀/2<sup>n</sup> = 100/2⁵ = 100/32 = 3.125 mSv/h</p>
+                <p><strong>Nəticə:</strong> 5 sm qurğuşun dozanı 32 dəfə azaldır.</p>
+            </div>
+
+            <h3>9.6.3. Radiasiya Monitorinqi</h3>
+            <ul>
+                <li><strong>Dozimetr:</strong> Fərdi doza ölçməsi</li>
+                <li><strong>Geiger sayğacı:</strong> Radiasiya aşkarlanması</li>
+                <li><strong>Sintillyasiya detektoru:</strong> Spektroskopiya</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>9.7. KVANT TEXNOLOGİYALARI</h2>
+
+            <h3>9.7.1. Kvant Hesablama</h3>
+            <p>
+                Kvant kompüterlər kvant mexanikası prinsiplərindən istifadə edərək hesablamalar aparır.
+            </p>
+
+            <h4>Kvant Bitləri (Qubitlər):</h4>
+            <ul>
+                <li>Superpozisiya: Eyni anda 0 və 1</li>
+                <li>Dolaşıqlıq: Kvant korrelyasiya</li>
+                <li>Kvant qapıları: Məntiq əməliyyatları</li>
+            </ul>
+
+            <h3>9.7.2. Kvant Kriptoqrafiya</h3>
+            <p>
+                Kvant mexanikası prinsipləri əsasında tam təhlükəsiz rabitə.
+            </p>
+
+            <ul>
+                <li><strong>BB84 protokolu:</strong> Kvant açar paylaşımı</li>
+                <li><strong>Kvant teleportasiya:</strong> Kvant vəziyyətin ötürülməsi</li>
+                <li><strong>Kvant şəbəkələr:</strong> Qlobal kvant rabitə</li>
+            </ul>
+
+            <h3>9.7.3. Kvant Sensorlar</h3>
+            <p>
+                Kvant sensorlar klassik sensorlardan daha yüksək həssaslığa malikdir.
+            </p>
+
+            <ul>
+                <li>Atom saatları: Vaxt standartları</li>
+                <li>Kvant maqnetometrlər: Maqnit sahəsi ölçməsi</li>
+                <li>Kvant qravimetrlər: Cazibə sahəsi xəritələməsi</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>9.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+
+            <h3>9.8.1. Əsas Nəticələr</h3>
+            <p>
+                Atom və nüvə fizikası XX əsrin ən böyük elmi nailiyyətlərindən biridir və müasir
+                texnologiyanın əsasını təşkil edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Atom və Nüvə Fizikasının Tətbiq Sahələri</h4>
+                <ul>
+                    <li>Enerji istehsalı və nüvə elektrik stansiyaları</li>
+                    <li>Tibbi diaqnostika və müalicə</li>
+                    <li>Yarımkeçirici texnologiyalar və elektronika</li>
+                    <li>Radiasiya tətbiqləri və sənaye</li>
+                    <li>Kvant texnologiyaları və hesablama</li>
+                </ul>
+            </div>
+
+            <h3>9.8.2. Müasir Texnologiyalar</h3>
+            <ul>
+                <li><strong>Nəsil IV reaktorlar:</strong> Təhlükəsiz və səmərəli</li>
+                <li><strong>Füziya enerjisi:</strong> ITER layihəsi</li>
+                <li><strong>Kvant kompüterlər:</strong> Google, IBM, IonQ</li>
+                <li><strong>Proton terapiyası:</strong> Dəqiq xərçəng müalicəsi</li>
+            </ul>
+
+            <h3>9.8.3. Gələcək İnkişaf İstiqamətləri</h3>
+            <div class="info-box">
+                <h4>İnnovativ Texnologiyalar</h4>
+                <ul>
+                    <li><strong>Kommersiya füziya enerjisi:</strong> Təmiz və sonsuz enerji</li>
+                    <li><strong>Kvant internet:</strong> Qlobal kvant rabitə şəbəkəsi</li>
+                    <li><strong>Nanoelektronika:</strong> Atom səviyyəsində cihazlar</li>
+                    <li><strong>Kvant simulyasiya:</strong> Material dizaynı və dərman kəşfi</li>
+                </ul>
+            </div>
+
+            <h3>9.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Radiasiya təhlükəsizliyi:</strong> ALARA prinsipinə riayət edin</li>
+                <li><strong>Lisenziyalaşdırma:</strong> Radioaktiv materiallarla işdə icazə alın</li>
+                <li><strong>Monitorinq:</strong> Mütəmadi radiasiya ölçmələri</li>
+                <li><strong>Təlim:</strong> Radiasiya təhlükəsizliyi təlimi</li>
+                <li><strong>Tullantı idarəetməsi:</strong> Radioaktiv tullantıların düzgün utilizasiyası</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Atom və nüvə fizikası müasir sivilizasiyanın əsasını təşkil edir. Enerji istehsalından
+                    tibbə, elektronikadan kvant texnologiyalarına qədər geniş sahələrdə tətbiq olunur.
+                    Füziya enerjisi və kvant hesablama sahəsində davam edən tədqiqatlar gələcəkdə
+                    inqilabi dəyişikliklərə səbəb olacaq. Eyni zamanda, radiasiya təhlükəsizliyi və
+                    nüvə tullantılarının idarə edilməsi mühüm məsələlər olaraq qalır.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class='page-break'></div>
+
+
+    <div class="topic-container">
+        <div class="topic-header">
+            <h1>10. BƏRPA OLUNAN ENERJİ SİSTEMLƏRİNİN FİZİKİ ƏSASLARI VƏ İŞLƏMƏ PRİNSİPLƏRİ</h1>
+        </div>
+
+        <div class="content-section">
+            <h2>10.1. BƏRPA OLUNAN ENERJİYƏ GİRİŞ</h2>
+            <p>
+                Bərpa olunan enerji mənbələri təbii proseslərdən əldə edilən və tükənməyən enerji
+                mənbələridir. İqlim dəyişikliyi və enerji təhlükəsizliyi kontekstində bu mənbələrin
+                əhəmiyyəti getdikcə artır.
+            </p>
+
+            <div class="info-box">
+                <h3>Əsas Bərpa Olunan Enerji Mənbələri</h3>
+                <ul>
+                    <li><strong>Günəş enerjisi:</strong> Fotovoltaik və termal sistemlər</li>
+                    <li><strong>Külək enerjisi:</strong> Külək turbinləri</li>
+                    <li><strong>Hidroenerji:</strong> Su elektrik stansiyaları</li>
+                    <li><strong>Geotermal enerji:</strong> Yer istiliyi</li>
+                    <li><strong>Bioenerji:</strong> Biomass və bioqaz</li>
+                    <li><strong>Okean enerjisi:</strong> Dalğa və gelgit enerjisi</li>
+                </ul>
+            </div>
+
+            <h3>10.1.1. Qlobal Enerji Vəziyyəti</h3>
+            <p>
+                2024-cü ildə qlobal enerji istehlakının təxminən 30%-i bərpa olunan mənbələrdən əldə edilir
+                və bu rəqəm sürətlə artır.
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>10.2. GÜNƏŞ ENERJİSİ</h2>
+
+            <h3>10.2.1. Fotovoltaik Effekt</h3>
+            <p>
+                Fotovoltaik effekt işığın yarımkeçirici materialda elektrik cərəyanı yaratması prosesidir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">E<sub>foton</sub> = hf = hc/λ</p>
+                <p class="formula-desc">
+                    E<sub>foton</sub> - foton enerjisi (J)<br>
+                    h - Plank sabiti (6.626 × 10⁻³⁴ J·s)<br>
+                    f - tezlik (Hz)<br>
+                    λ - dalğa uzunluğu (m)
+                </p>
+            </div>
+
+            <h3>10.2.2. Günəş Panelləri</h3>
+            <p>
+                Günəş panelləri fotovoltaik hüceyrələrdən ibarətdir və günəş işığını birbaşa elektrik
+                enerjisinə çevirir.
+            </p>
+
+            <div class="info-box">
+                <h4>Günəş Paneli Növləri</h4>
+                <ul>
+                    <li><strong>Monokristal silikon:</strong> 18-22% səmərəlilik</li>
+                    <li><strong>Polikristal silikon:</strong> 15-17% səmərəlilik</li>
+                    <li><strong>Nazik təbəqəli (CIGS, CdTe):</strong> 10-13% səmərəlilik</li>
+                    <li><strong>Perovskite:</strong> 25%+ səmərəlilik (tədqiqat mərhələsində)</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 1: Günəş Paneli Gücü</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Panel sahəsi: A = 2 m²</li>
+                    <li>Günəş şüalanması: I = 1000 W/m² (STC)</li>
+                    <li>Panel səmərəliliyi: η = 20%</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Gələn güc: P<sub>in</sub> = IA = 1000 × 2 = 2000 W</p>
+                <p>Çıxış gücü: P<sub>out</sub> = ηP<sub>in</sub> = 0.20 × 2000 = 400 W</p>
+                <p>Günlük enerji (6 saat): E = 400 × 6 = 2400 Wh = 2.4 kWh</p>
+                <p><strong>Nəticə:</strong> Panel gündə 2.4 kWh enerji istehsal edir.</p>
+            </div>
+
+            <h3>10.2.3. Günəş Termal Sistemləri</h3>
+            <p>
+                Günəş termal sistemləri günəş enerjisini istilik enerjisinə çevirir.
+            </p>
+
+            <h4>Tətbiqlər:</h4>
+            <ul>
+                <li><strong>Su qızdırıcıları:</strong> Ev və sənaye</li>
+                <li><strong>Konsentrasiya sistemləri (CSP):</strong> Elektrik istehsalı</li>
+                <li><strong>İsitmə sistemləri:</strong> Bina isitmə</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>10.3. KÜLƏK ENERJİSİ</h2>
+
+            <h3>10.3.1. Külək Turbininin İşləmə Prinsipi</h3>
+            <p>
+                Külək turbinləri küləyin kinetik enerjisini mexaniki və sonra elektrik enerjisinə çevirir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">P = ½ρAv³C<sub>p</sub></p>
+                <p class="formula-desc">
+                    P - güc (W)<br>
+                    ρ - havanın sıxlığı (1.225 kq/m³)<br>
+                    A - rotor sahəsi (m²)<br>
+                    v - külək sürəti (m/s)<br>
+                    C<sub>p</sub> - güc əmsalı (maksimum 0.59, Betz limiti)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 2: Külək Turbini Gücü</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Rotor diametri: D = 100 m → r = 50 m</li>
+                    <li>Külək sürəti: v = 12 m/s</li>
+                    <li>Güc əmsalı: C<sub>p</sub> = 0.45</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Rotor sahəsi: A = πr² = π × 50² = 7854 m²</p>
+                <p>Güc: P = 0.5 × 1.225 × 7854 × 12³ × 0.45</p>
+                <p>P = 0.5 × 1.225 × 7854 × 1728 × 0.45 = 3,732,000 W ≈ 3.7 MW</p>
+                <p><strong>Nəticə:</strong> Turbinin gücü təxminən 3.7 MW-dır.</p>
+            </div>
+
+            <h3>10.3.2. Külək Turbini Növləri</h3>
+            <ul>
+                <li><strong>Üfüqi oxlu (HAWT):</strong> Ən geniş yayılmış, yüksək səmərəlilik</li>
+                <li><strong>Şaquli oxlu (VAWT):</strong> Kompakt, istənilən istiqamətdə işləyir</li>
+                <li><strong>Offshore turbinlər:</strong> Daha güclü və sabit külək</li>
+            </ul>
+
+            <h3>10.3.3. Külək Fermaları</h3>
+            <p>
+                Külək fermaları çoxlu turbinlərin qruplaşdırılmasıdır və böyük miqyasda enerji istehsal edir.
+            </p>
+
+            <div class="info-box">
+                <h4>Külək Ferması Dizaynı</h4>
+                <ul>
+                    <li>Turbinlər arası məsafə: 5-10 rotor diametri</li>
+                    <li>Küləyin istiqaməti və sürəti təhlili</li>
+                    <li>Şəbəkəyə qoşulma infrastrukturu</li>
+                    <li>Ətraf mühitə təsirin qiymətləndirilməsi</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>10.4. HİDROENERJİ</h2>
+
+            <h3>10.4.1. Hidroelektrik Stansiyaların Prinsipi</h3>
+            <p>
+                Hidroelektrik stansiyalar suyun potensial enerjisini elektrik enerjisinə çevirir.
+            </p>
+
+            <div class="formula-box">
+                <p class="formula">P = ηρgQH</p>
+                <p class="formula-desc">
+                    P - güc (W)<br>
+                    η - səmərəlilik (0.85-0.95)<br>
+                    ρ - suyun sıxlığı (1000 kq/m³)<br>
+                    g - cazibə təcili (9.8 m/s²)<br>
+                    Q - su axını (m³/s)<br>
+                    H - düşmə hündürlüyü (m)
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 3: Hidroelektrik Stansiya</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Su axını: Q = 500 m³/s</li>
+                    <li>Düşmə hündürlüyü: H = 100 m</li>
+                    <li>Səmərəlilik: η = 90%</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>P = 0.9 × 1000 × 9.8 × 500 × 100</p>
+                <p>P = 441,000,000 W = 441 MW</p>
+                <p>İllik enerji: E = 441 × 24 × 365 = 3,863,160 MWh ≈ 3.86 TWh</p>
+                <p><strong>Nəticə:</strong> Stansiya 441 MW güc və ildə 3.86 TWh enerji istehsal edir.</p>
+            </div>
+
+            <h3>10.4.2. Hidroelektrik Stansiya Növləri</h3>
+            <ul>
+                <li><strong>Bənd tipli:</strong> Böyük su anbarı</li>
+                <li><strong>Axın tipli:</strong> Təbii axından istifadə</li>
+                <li><strong>Nasos-akkumulyasiya:</strong> Enerji saxlama</li>
+                <li><strong>Kiçik HES:</strong>
+                    < 10 MW, lokal tətbiqlər</li>
+            </ul>
+
+            <h3>10.4.3. Ətraf Mühitə Təsir</h3>
+            <p>
+                Hidroelektrik stansiyalar təmiz enerji istehsal etsə də, ətraf mühitə təsiri var:
+            </p>
+
+            <ul>
+                <li>Ekosistemin dəyişməsi</li>
+                <li>Balıq miqrasiyasının pozulması</li>
+                <li>Su keyfiyyətinin dəyişməsi</li>
+                <li>Yerli əhalinin köçürülməsi</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>10.5. GEOTERMAL ENERJİ</h2>
+
+            <h3>10.5.1. Geotermal Enerji Mənbələri</h3>
+            <p>
+                Geotermal enerji Yerin daxili istiliyindən əldə edilir. Yer qabığının dərinliyində
+                temperatur hər 100 metrdə təxminən 3°C artır.
+            </p>
+
+            <h4>Geotermal Sistemlər:</h4>
+            <ul>
+                <li><strong>Hidrotermal:</strong> Təbii isti su və buxar</li>
+                <li><strong>Quru qayalar (EGS):</strong> Süni olaraq yaradılmış</li>
+                <li><strong>Geopressure:</strong> Yüksək təzyiqli sistemlər</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 4: Geotermal İstilik Nasosları</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>İsitmə yükü: Q<sub>h</sub> = 10 kW</li>
+                    <li>Yer temperaturu: T<sub>ground</sub> = 10°C</li>
+                    <li>Otaq temperaturu: T<sub>room</sub> = 20°C</li>
+                    <li>COP: 4</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Elektrik gücü: P = Q<sub>h</sub>/COP = 10/4 = 2.5 kW</p>
+                <p>Yerdən alınan istilik: Q<sub>ground</sub> = Q<sub>h</sub> - P = 10 - 2.5 = 7.5 kW</p>
+                <p><strong>Nəticə:</strong> Hər 1 kW elektrik ilə 4 kW istilik əldə edilir.</p>
+            </div>
+
+            <h3>10.5.2. Geotermal Elektrik Stansiyaları</h3>
+            <p>
+                Geotermal elektrik stansiyaları yer istiliyindən elektrik enerjisi istehsal edir.
+            </p>
+
+            <h4>Texnologiyalar:</h4>
+            <ul>
+                <li><strong>Quru buxar:</strong> Birbaşa turbinə</li>
+                <li><strong>Flash buxar:</strong> Təzyiq azaldılaraq buxarlanma</li>
+                <li><strong>Binary tsikl:</strong> Aşağı temperaturlu mənbələr</li>
+            </ul>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>10.6. BİOENERJİ</h2>
+
+            <h3>10.6.1. Biomass Enerjisi</h3>
+            <p>
+                Biomass üzvi materiallardan (ağac, kənd təsərrüfatı tullantıları, bioqaz) əldə edilən enerjidir.
+            </p>
+
+            <h4>Biomass Çevrilmə Prosesləri:</h4>
+            <ul>
+                <li><strong>Yanma:</strong> Birbaşa istilik istehsalı</li>
+                <li><strong>Qazlaşdırma:</strong> Sintez qazı istehsalı</li>
+                <li><strong>Piroliz:</strong> Bio-yağ istehsalı</li>
+                <li><strong>Anaerob həzm:</strong> Bioqaz (metan) istehsalı</li>
+            </ul>
+
+            <h3>10.6.2. Bioyanaçaqlar</h3>
+            <p>
+                Bioyanaçaqlar biomassdan əldə edilən maye və ya qaz yanacaqlardır.
+            </p>
+
+            <ul>
+                <li><strong>Bioetanol:</strong> Şəkər və nişasta bitkilərindən</li>
+                <li><strong>Biodizel:</strong> Bitki yağları və heyvan piylərindən</li>
+                <li><strong>Bioqaz:</strong> Üzvi tullantıların anaerob həzmi</li>
+                <li><strong>İkinci nəsil:</strong> Sellüloza əsaslı</li>
+            </ul>
+
+            <div class="example-box">
+                <h4>Praktik Nümunə 5: Bioqaz İstehsalı</h4>
+                <p><strong>Verilənlər:</strong></p>
+                <ul>
+                    <li>Üzvi tullantı: 1000 kq/gün</li>
+                    <li>Bioqaz çıxımı: 0.5 m³/kq</li>
+                    <li>Metanın enerji dəyəri: 35 MJ/m³</li>
+                </ul>
+                <p><strong>Hesablama:</strong></p>
+                <p>Günlük bioqaz: V = 1000 × 0.5 = 500 m³/gün</p>
+                <p>Enerji: E = 500 × 35 = 17,500 MJ/gün = 4861 kWh/gün</p>
+                <p>Orta güc: P = 4861/24 ≈ 203 kW</p>
+                <p><strong>Nəticə:</strong> Sistem orta hesabla 203 kW güc istehsal edir.</p>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>10.7. ENERJİ SAXLAMA SİSTEMLƏRİ</h2>
+
+            <h3>10.7.1. Batareyalar</h3>
+            <p>
+                Batareyalar kimyəvi enerjini elektrik enerjisinə çevirir və bərpa olunan enerji
+                sistemlərində mühüm rol oynayır.
+            </p>
+
+            <h4>Batareya Texnologiyaları:</h4>
+            <ul>
+                <li><strong>Litium-ion:</strong> Yüksək enerji sıxlığı, elektromobillər</li>
+                <li><strong>Qurğuşun-turşu:</strong> Ucuz, avtomobil batareyaları</li>
+                <li><strong>Natrium-ion:</strong> Ucuz alternativ</li>
+                <li><strong>Axın batareyaları:</strong> Böyük miqyaslı saxlama</li>
+            </ul>
+
+            <div class="formula-box">
+                <p class="formula">E = VQ = VIt</p>
+                <p class="formula-desc">
+                    E - enerji (Wh)<br>
+                    V - gərginlik (V)<br>
+                    Q - yük (Ah)<br>
+                    I - cərəyan (A)<br>
+                    t - vaxt (h)
+                </p>
+            </div>
+
+            <h3>10.7.2. Digər Saxlama Metodları</h3>
+            <ul>
+                <li><strong>Nasos-akkumulyasiya:</strong> Hidroelektrik saxlama</li>
+                <li><strong>Sıxılmış hava:</strong> CAES sistemləri</li>
+                <li><strong>Volan:</strong> Kinetik enerji saxlama</li>
+                <li><strong>Termal saxlama:</strong> İstilik və soyuqluq saxlama</li>
+                <li><strong>Hidrogen:</strong> Elektroliz və yanacaq hüceyrələri</li>
+            </ul>
+
+            <h3>10.7.3. Hidrogen Enerjisi</h3>
+            <p>
+                Hidrogen enerji daşıyıcısı kimi istifadə olunur və bərpa olunan enerjinin saxlanması üçün
+                perspektivlidir.
+            </p>
+
+            <div class="info-box">
+                <h4>Hidrogen İstehsal Metodları</h4>
+                <ul>
+                    <li><strong>Yaşıl hidrogen:</strong> Bərpa olunan enerji ilə elektroliz</li>
+                    <li><strong>Mavi hidrogen:</strong> Təbii qazdan CO₂ tutma ilə</li>
+                    <li><strong>Boz hidrogen:</strong> Təbii qazdan (CO₂ buraxılır)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section page-break">
+            <h2>10.8. NƏTİCƏ VƏ PERSPEKTÍVLƏR</h2>
+
+            <h3>10.8.1. Əsas Nəticələr</h3>
+            <p>
+                Bərpa olunan enerji mənbələri davamlı enerji gələcəyinin əsasını təşkil edir.
+                Texnoloji inkişaf və qiymətlərin azalması ilə bu mənbələrin rəqabət qabiliyyəti artır.
+            </p>
+
+            <div class="info-box">
+                <h4>Bərpa Olunan Enerjinin Üstünlükləri</h4>
+                <ul>
+                    <li>Tükənməz enerji mənbələri</li>
+                    <li>Aşağı karbon emissiyaları</li>
+                    <li>Enerji təhlükəsizliyi və müstəqilliyi</li>
+                    <li>İş yerlərinin yaradılması</li>
+                    <li>Texnoloji innovasiya</li>
+                </ul>
+            </div>
+
+            <h3>10.8.2. Çətinliklər və Həllər</h3>
+            <ul>
+                <li><strong>Dəyişkənlik:</strong> Enerji saxlama sistemləri</li>
+                <li><strong>Şəbəkə inteqrasiyası:</strong> Ağıllı şəbəkələr</li>
+                <li><strong>Başlanğıc xərclər:</strong> Maliyyə dəstəyi və sübvensiyalar</li>
+                <li><strong>Torpaq istifadəsi:</strong> Offshore və çatı sistemləri</li>
+            </ul>
+
+            <h3>10.8.3. Gələcək Perspektivləri</h3>
+            <div class="info-box">
+                <h4>İnnovativ Texnologiyalar</h4>
+                <ul>
+                    <li><strong>Perovskite günəş panelləri:</strong> 30%+ səmərəlilik</li>
+                    <li><strong>Üzən külək fermaları:</strong> Dərin okean tətbiqləri</li>
+                    <li><strong>Yaşıl hidrogen:</strong> Enerji saxlama və nəqliyyat</li>
+                    <li><strong>Süni fotosintez:</strong> CO₂-dən yanacaq istehsalı</li>
+                    <li><strong>Termonüvə enerjisi:</strong> Təmiz və sonsuz enerji</li>
+                </ul>
+            </div>
+
+            <h3>10.8.4. Praktik Tövsiyələr</h3>
+            <ol>
+                <li><strong>Enerji auditi:</strong> İstehlakı optimallaşdırın</li>
+                <li><strong>Hibrid sistemlər:</strong> Müxtəlif mənbələri birləşdirin</li>
+                <li><strong>Enerji səmərəliliyi:</strong> İlk növbədə istehlakı azaldın</li>
+                <li><strong>Ağıllı idarəetmə:</strong> AI və IoT texnologiyaları</li>
+                <li><strong>Davamlı inkişaf:</strong> Uzunmüddətli planlaşdırma</li>
+            </ol>
+
+            <div class="conclusion-box">
+                <h4>Yekun Qeyd</h4>
+                <p>
+                    Bərpa olunan enerji mənbələri enerji sektorunda inqilabi dəyişikliklər yaradır.
+                    Günəş və külək enerjisi artıq ən ucuz elektrik mənbələri arasındadır. Enerji
+                    saxlama texnologiyalarının inkişafı ilə bərpa olunan enerjinin dəyişkənlik
+                    problemi həll olunur. 2050-ci ilə qədər qlobal enerji sisteminin əsasən bərpa
+                    olunan mənbələrə əsaslanması gözlənilir. Bu keçid təmiz, davamlı və iqtisadi
+                    cəhətdən səmərəli enerji gələcəyini təmin edəcək.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
